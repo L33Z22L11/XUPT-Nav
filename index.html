@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="between">
     <h2><a><i class="fa-solid fa-compass"></i> 西柚导航</a></h2>
     <strong>cooo.site</strong>
   </nav>
@@ -26,6 +26,20 @@
       添加链接请发邮件至L33Z22L11@qq.com</p>
   </footer>
 
+  <link rel="stylesheet" href="./asset/dialog.css">
+  <div id="dialog" class="hidden">
+    <div class="bgWrapper" onclick="dialog.close()"></div>
+    <div class="card">
+      <div class="between">
+        <h4 id="dialogTitle"></h4>
+        <a onclick="dialog.close()"><i class="fa-solid fa-xmark"></i></a>
+      </div>
+      <div id="dialogContent"></div>
+    </div>
+  </div>
+  <script src="https://cdn.bootcdn.net/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./asset/dialog.js"></script>
+
   <div class="bicol">
     <div class="card">
       <h4><i class="fa-solid fa-chalkboard-user"></i> 线上学习</h4>
@@ -38,9 +52,11 @@
     </div>
 
     <div class="card">
-      <h4><i class="fa-solid fa-school"></i> 西邮门户</h4>
+      <h4><i class="fa-solid fa-school"></i> 西邮生活</h4>
       <div class="list">
+        <a onclick="dialog.QR('青年大学习')"><i class="fa-solid fa-qrcode"></i>青年大学习</a>
         <a href="http://www.zfjw.xupt.edu.cn/jwglxt">教务管理系统</a>
+        <a onclick="dialog.QR('第二课堂')"><i class="fa-solid fa-qrcode"></i>第二课堂</a>
         <a href="http://i.xiyou.edu.cn/">校园信息门户</a>
         <a href="https://sec.xupt.edu.cn/">内网资源导航</a>
       </div>
@@ -53,6 +69,16 @@
         <a href="https://cet-bm.neea.edu.cn/">四六级报名</a>
       </div>
     </div>
+
+    <div class="card">
+      <h4><i class="fa-solid fa-circle-nodes"></i> 西邮周边</h4>
+      <div class="list">
+        <!-- <a href="https://github.com/drcoms/drcom-generic/wiki/可用学校列表">校园网</a> -->
+        <a href="https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" data-sub="隔壁小O">东区导航</a>
+        <a href="https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" data-sub="半岛的孤城">
+          <i class="fa-brands fa-bilibili"></i>西邮合集</a>
+      </div>
+    </div>
   </div>
 
   <nav>
@@ -63,19 +89,10 @@
       <h4><i class="fa-solid fa-share-from-square"></i> 第三方导航</h4>
       <div class="list">
         <a href="https://www.bandao.ltd/guidance/" data-sub="西邮学习">半岛导航</a>
-        <a href="https://www.iiice.cn/" data-sub="影视 工具 软件">下次一定导航</a>
+        <a href="https://e.juejin.cn/" data-sub="开发者">掘金酱</a>
+        <a href="https://www.iiice.cn/" data-sub="影视 工具 装机">下次一定</a>
         <a href="https://s.eallion.com/" data-sub="开发 设计">蜗牛导航</a>
         <a href="http://www.hepou.com/" data-sub="运营 美工">禾坡导航</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-book-bookmark"></i> 西柚周边</h4>
-      <div class="list">
-        <!-- <a href="https://github.com/drcoms/drcom-generic/wiki/可用学校列表">校园网</a> -->
-        <a href="https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA">东区教室导航</a>
-        <a href="https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061">
-          <i class="fa-brands fa-bilibili"></i>西邮合集(半岛)</a>
       </div>
     </div>
 
@@ -93,22 +110,9 @@
     <div class="card">
       <h4><i class="fa-solid fa-toolbox"></i> 在线工具</h4>
       <div class="list">
-        <a href="https://ps.gaoding.com/#/?from=gaoding">稿定PS</a>
-        <a href="https://tool.oschina.net/">OSCHINA工具</a>
+        <a href="https://ps.gaoding.com/#/">稿定PS</a>
         <a href="https://c.runoob.com/">菜鸟工具</a>
         <a href="https://www.itwu.cc/">IT屋工具</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-screwdriver-wrench"></i> 装机工具</h4>
-      <div class="list">
-        <a href="https://next.itellyou.cn/">itellyou</a>
-        <a href="https://uupdump.net/?lang=zh-cn">UUPDump</a>
-        <a href="https://firpe.cn/page-247">FirPE</a>
-        <a href="https://www.ventoy.net/cn/">Ventoy</a>
-        <a href="https://rufus.ie/zh/">Rufus</a>
-        <a href="https://otp.landian.vip/zh-cn/">OfficeToolPlus</a>
       </div>
     </div>
 
@@ -124,7 +128,7 @@
   <footer>
     <a href="https://github.com/L33Z22L11/XUPTNav">
       <i class="fa-brands fa-github"></i>L33Z22L11/XUPTNav</a>
-    <p>© 2019-2023 纸鹿</p>
+    <p>© 2023 纸鹿</p>
   </footer>
 </body>
 

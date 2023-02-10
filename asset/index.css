@@ -77,7 +77,7 @@ pre {
 }
 
 html {
-    font-family: PingFang SC, Helvetic1, sans-serif;
+    font-family: PingFang SC, Helvetica, sans-serif;
     width: 90vw;
     min-height: 100vh;
     margin: 0 auto;
@@ -93,16 +93,6 @@ html {
     text-align: center;
 }
 
-[data-sufdesc] {
-    position: relative;
-}
-
-[data-sufdesc]::after {
-    position: absolute;
-    right: 0;
-    opacity: .6;
-}
-
 [data-sub] {
     /* display: inline-block; */
     text-align: center;
@@ -116,11 +106,16 @@ html {
     opacity: .6;
 }
 
-nav {
+.between {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+body>nav,
+body>footer
+{
     margin: 1rem 0;
 }
 
@@ -128,10 +123,6 @@ nav {
 footer {
     font-size: .8rem;
     color: var(--text3);
-}
-
-footer {
-    margin: 1rem 0;
 }
 
 
