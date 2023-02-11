@@ -94,9 +94,9 @@ html {
 }
 
 [data-sub] {
-    /* display: inline-block; */
+    display: inline-block;
     text-align: center;
-    /* vertic1l-align: middle; */
+    /* vertical-align: middle; */
 }
 
 [data-sub]::after {

@@ -40,96 +40,21 @@
   <script src="https://cdn.bootcdn.net/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script src="./asset/dialog.js"></script>
 
-  <div class="bicol">
-    <div class="card">
-      <h4><i class="fa-solid fa-chalkboard-user"></i> 线上学习</h4>
-      <div class="list">
-        <a href="http://i.chaoxing.com/">学习通</a>
-        <a href="https://u.unipus.cn/user/student">U校园</a>
-        <a href="http://iwrite.unipus.cn/student">iWrite</a>
-        <a href="https://icourse163.org/home.htm">中国大学MOOC</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-school"></i> 西邮生活</h4>
-      <div class="list">
-        <a onclick="dialog.QR('青年大学习')"><i class="fa-solid fa-qrcode"></i>青年大学习</a>
-        <a href="http://www.zfjw.xupt.edu.cn/jwglxt">教务管理系统</a>
-        <a onclick="dialog.QR('第二课堂')"><i class="fa-solid fa-qrcode"></i>第二课堂</a>
-        <a href="http://i.xiyou.edu.cn/">校园信息门户</a>
-        <a href="https://sec.xupt.edu.cn/">内网资源导航</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-pen-ruler"></i> 考试信息</h4>
-      <div class="list">
-        <a href="https://www.chsi.com.cn/">学信网</a>
-        <a href="https://cet-bm.neea.edu.cn/">四六级报名</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-circle-nodes"></i> 西邮周边</h4>
-      <div class="list">
-        <!-- <a href="https://github.com/drcoms/drcom-generic/wiki/可用学校列表">校园网</a> -->
-        <a href="https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" data-sub="隔壁小O">东区导航</a>
-        <a href="https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" data-sub="半岛的孤城">
-          <i class="fa-brands fa-bilibili"></i>西邮合集</a>
-      </div>
-    </div>
-  </div>
+  <div class="bicol" id="navMain"></div>
 
   <nav>
     <h3><a><i class="fa-solid fa-star"></i> 发现更多</a></h3>
   </nav>
-  <div class="bicol">
-    <div class="card">
-      <h4><i class="fa-solid fa-share-from-square"></i> 第三方导航</h4>
-      <div class="list">
-        <a href="https://www.bandao.ltd/guidance/" data-sub="西邮学习">半岛导航</a>
-        <a href="https://e.juejin.cn/" data-sub="开发者">掘金酱</a>
-        <a href="https://www.iiice.cn/" data-sub="影视 工具 装机">下次一定</a>
-        <a href="https://s.eallion.com/" data-sub="开发 设计">蜗牛导航</a>
-        <a href="http://www.hepou.com/" data-sub="运营 美工">禾坡导航</a>
-      </div>
-    </div>
 
-    <div class="card">
-      <h4><i class="fa-solid fa-cube"></i> 软件下载</h4>
-      <div class="list">
-        <a href="https://lestore.lenovo.com/">联想应用商店</a>
-        <a href="https://www.ghxi.com/">果核剥壳</a>
-        <a href="https://store.rg-adguard.net/">微软商店解析</a>
-        <a href="https://www.digit77.com/">Digit77</a>
-
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-toolbox"></i> 在线工具</h4>
-      <div class="list">
-        <a href="https://ps.gaoding.com/#/">稿定PS</a>
-        <a href="https://c.runoob.com/">菜鸟工具</a>
-        <a href="https://www.itwu.cc/">IT屋工具</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h4><i class="fa-solid fa-link"></i> 友链</h4>
-      <div class="list">
-        <a href="https://zhilu.cyou/">纸鹿小站</a>
-        <a href="https://www.bandao.ltd/">半岛的小屋</a>
-      </div>
-    </div>
-  </div>
+  <div class="bicol" id="navMore"></div>
 
   <footer>
     <a href="https://github.com/L33Z22L11/XUPTNav">
       <i class="fa-brands fa-github"></i>L33Z22L11/XUPTNav</a>
     <p>© 2023 纸鹿</p>
   </footer>
+
+  <script src="./asset/navlist.js"></script>
 </body>
 
 </html>
