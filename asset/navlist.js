@@ -1,9 +1,9 @@
 let navlist = {
-  eleMain: document.getElementById("navMain"),
-  eleMore: document.getElementById("navMore"),
+  ele: document.getElementsByClassName("navlist"),
+  list: [],
 }
 
-navlist.main = [{
+navlist.list[0] = [{
   name: "线上学习", icon: "fa-solid fa-chalkboard-user", list: [
     { name: "学习通", link: "http://i.chaoxing.com/" },
     { name: "U校园", link: "https://u.unipus.cn/user/student" },
@@ -31,7 +31,7 @@ navlist.main = [{
   ]
 },]
 
-navlist.more = [{
+navlist.list[1] = [{
   name: "第三方导航", icon: "fa-solid fa-share-from-square", list: [
     { name: "半岛导航", desc: "西邮 学习", link: "https://www.bandao.ltd/guidance/" },
     { name: "掘金酱", desc: "开发者", link: "https://e.juejin.cn/" },
@@ -58,24 +58,20 @@ navlist.more = [{
   ]
 },]
 
-navlist.output = (groupList, ele) => {
-  let str = ''
-  groupList.forEach(group => {
-    str += `
-      <div class="card">
-      <h4><i class="${group.icon}"></i> ${group.name}</h4>
-      <div class="list">`
-    group.list.forEach(item => {
-      str += `<a 
-        ${item.link ? `href="${item.link}"` : ''}
-        ${item.js ? `onclick="${item.js}"` : ''}
-        ${item.desc ? `data-sub="${item.desc}"` : ''}
-        >${item.icon ? `<i class="${item.icon}"></i>` : ''}${item.name}</a>`
-    })
-    str += `</div></div>`
-  })
-  ele.innerHTML = str;
+navlist.output = (list, ele) => {
+  ele.innerHTML = list.map(group => `
+    <div class="card">
+    <h4><i class="${group.icon}"></i> ${group.name}</h4>
+    <div class="list">
+    ${group.list.map(item => `<a 
+      ${item.link ? `href="${item.link}"` : ''}
+      ${item.js ? `onclick="${item.js}"` : ''}
+      ${item.desc ? `data-sub="${item.desc}"` : ''}
+      >${item.icon ? `<i class="${item.icon}"></i>` : ''}${item.name}
+      </a>`).join(`\n`)}
+    </div>
+    </div>`).join(`\n`)
 }
 
-navlist.output(navlist.main, navlist.eleMain)
-navlist.output(navlist.more, navlist.eleMore)
+for (let i = 0; navlist.list[i] && navlist.ele[i]; i++)
+  navlist.output(navlist.list[i], navlist.ele[i])
