@@ -18,14 +18,17 @@
   </nav>
 
   <footer>
-    <a href="https://jq.qq.com/?_wv=1027&k=lQfNSeEd">
-      <i class="fa-brands fa-qq"></i> QQ群: 16 999 4096</a>&emsp;
-    <a href="https://t.me/xu_tech"><i class="fa-brands fa-telegram"></i>
-      TG群: XU_TECH</a>
-    <p><code>公告</code>
-      添加链接请发邮件至L33Z22L11@qq.com</p>
+    <div class="list">
+      <a href="https://jq.qq.com/?_wv=1027&k=lQfNSeEd">
+        <i class="fa-brands fa-qq"></i> QQ群: 16 999 4096</a>&emsp;
+      <a href="https://t.me/xu_tech"><i class="fa-brands fa-telegram"></i>
+        TG群: XU_TECH</a>&emsp;
+      <a onclick="dialog.msg('投稿')"><i class="fa-solid fa-square-plus"></i> 链接投稿</a>
+    </div>
+    <!-- <p><code>公告</code>添加链接请发邮件至L33Z22L11@qq.com</p> -->
   </footer>
 
+  <!-- dialog -->
   <link rel="stylesheet" href="./asset/dialog.css">
   <div id="dialog" class="hidden">
     <div class="bgWrapper" onclick="dialog.close()"></div>
@@ -39,6 +42,15 @@
   </div>
   <script src="https://cdn.bootcdn.net/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script src="./asset/dialog.js"></script>
+
+  <!-- timer -->
+  <link rel="stylesheet" href="./asset/timer.css">
+  <div class="card between" id="timer" title="点击更新计时器" onclick="timer.load()">
+    <span>1</span>
+    <span>2</span>
+    <div><!-- timer progress --></div>
+  </div>
+  <script src="./asset/timer.js"></script>
 
   <div class="bicol navlist">
     <!-- navlist.list[0] -->

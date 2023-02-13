@@ -4,7 +4,7 @@
 }
 
 :root {
-    --bg1: linear-gradient(0, #fffbf9, #fff9f7);
+    --bg1: #fffbf7;
     --bg2: #fff;
     --text1: #330;
     --text2: #665;
@@ -30,6 +30,8 @@
 }
 
 a {
+    display: inline-block;
+
     margin: -.1em -.25em;
     padding: .1em .25em;
     cursor: pointer;
@@ -85,6 +87,10 @@ html {
     background: var(--bg1);
 }
 
+body>* {
+    margin: 1rem 0;
+}
+
 .fa-solid,
 .fa-regular,
 .fa-brands,
@@ -111,12 +117,6 @@ html {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-body>nav,
-body>footer
-{
-    margin: 1rem 0;
 }
 
 .dim,
