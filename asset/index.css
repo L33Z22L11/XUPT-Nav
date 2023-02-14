@@ -74,7 +74,6 @@ pre {
 }
 
 ::selection {
-    color: var(--text1);
     background: var(--ac2);
 }
 

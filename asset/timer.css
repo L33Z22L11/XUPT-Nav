@@ -12,9 +12,8 @@
     margin: .2em 1em;
 }
 
-#timer>span::selection {
+#timer ::selection {
     background: none;
-    text-shadow: 0 0 .1em var(--ac1);
 }
 
 #timer> :last-child {
