@@ -5,7 +5,7 @@ let dialog = {
 }
 
 dialog.listMsg = {
-    投稿: `QQ: 2399052066 (同时支持QQ邮箱)`,
+    联系方式: `QQ: 2399052066 (同时支持QQ邮箱)`,
 }
 
 dialog.msg = name => {
@@ -21,7 +21,7 @@ dialog.listQR = {
 
 dialog.qr = name => {
     dialog.title.innerHTML = `<i class="fa-solid fa-qrcode"></i> ${name}`
-    dialog.content.textContent = `请使用微信扫一扫打开${dialog.listQR[name]}`
+    dialog.content.innerHTML = `微信扫一扫，一键打开。<br>(仅供电脑用户使用，手机由于限制无法直达)`
     new QRCode(dialog.content, dialog.listQR[name])
     dialog.show()
 }

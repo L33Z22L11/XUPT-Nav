@@ -14,7 +14,7 @@
 <body>
   <nav class="between">
     <h2><a><i class="fa-solid fa-compass"></i> 西柚导航</a></h2>
-    <strong>cooo.site</strong>
+    <strong data-sub="记住网址不迷路">cooo.site</strong>
   </nav>
 
   <footer>
@@ -23,7 +23,6 @@
         <i class="fa-brands fa-qq"></i> QQ群: 16 999 4096</a>&emsp;
       <a href="https://t.me/xu_tech"><i class="fa-brands fa-telegram"></i>
         TG群: XU_TECH</a>&emsp;
-      <a onclick="dialog.msg('投稿')"><i class="fa-solid fa-square-plus"></i> 链接投稿</a>
     </div>
     <!-- <p><code>公告</code>添加链接请发邮件至L33Z22L11@qq.com</p> -->
   </footer>
@@ -46,8 +45,11 @@
   <!-- timer -->
   <link rel="stylesheet" href="./asset/timer.css">
   <div class="card between" id="timer" title="点击更新计时器" onclick="timer.load()">
-    <span>1</span>
-    <span>2</span>
+    <span>
+      <font color="red" size="6">浏览器版本过低</font><br>
+      <font color="orange" size="4">建议使用 Chrome / Edge / Firefox / 360极速浏览器X 访问。</font>
+    </span>
+    <span></span>
     <div><!-- timer progress --></div>
   </div>
   <script src="./asset/timer.js"></script>
