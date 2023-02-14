@@ -20,8 +20,10 @@ dialog.listQR = {
 }
 
 dialog.qr = name => {
+    if (window.navigator.userAgent.match("MicroMessenger"))
+        return open(dialog.listQR[name])
     dialog.title.innerHTML = `<i class="fa-solid fa-qrcode"></i> ${name}`
-    dialog.content.innerHTML = `微信扫一扫，一键打开。<br>(仅供电脑用户使用，手机由于限制无法直达)`
+    dialog.content.innerHTML = `微信扫一扫，一键打开。<br>(手机浏览器用户请在微信内打开网站)`
     new QRCode(dialog.content, dialog.listQR[name])
     dialog.show()
 }

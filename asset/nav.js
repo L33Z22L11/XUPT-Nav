@@ -18,8 +18,8 @@ nav.list[0] = [{
     { text: "教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
     { text: "教育邮箱", link: "http://webmail.xupt.edu.cn/" },
-    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-solid fa-qrcode", js: "dialog.qr(this.textContent)" },
-    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-solid fa-qrcode", js: "dialog.qr(this.textContent)" },
+    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.qr(this.textContent)" },
+    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.qr(this.textContent)" },
     { text: "西邮官网", link: "http://xupt.edu.cn/" },
     { text: "常用服务导航", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", link: "http://one.xupt.edu.cn/EIP" },
@@ -57,6 +57,7 @@ nav.list[1] = [{
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
     { text: "稿定PS", link: "https://ps.gaoding.com/#/" },
     { text: "菜鸟工具", link: "https://c.runoob.com/" },
+    { text: "MikuTools", link: "https://okmiku.com/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
