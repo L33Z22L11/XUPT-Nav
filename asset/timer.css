@@ -1,26 +1,13 @@
 #timer {
-    font-size: .8em;
     position: relative;
     overflow: hidden;
-    padding: 0;
-    cursor: help;
-    border-radius: .5em;
+    gap: 2em;
 }
 
-#timer>span {
-    z-index: 1;
-    margin: .2em 1em;
-}
-
-#timer ::selection {
-    background: none;
-}
-
-#timer> :last-child {
+#timer>.progress {
     position: absolute;
-    top: 0;
     bottom: 0;
-    width: 50%;
+    height: .2em;
     margin: 0;
-    background: var(--ac3);
+    background: var(--ac2);
 }

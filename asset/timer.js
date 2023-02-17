@@ -1,22 +1,18 @@
-// ExamClockCore
+// ExamClockCore from https://github.com/L33Z22L11/ExamClock
 
 let timer = {
   ele: document.getElementById("timer").children,
-  now: new Date(),
+  start: new Date(0), end: new Date(0), now: new Date(),
+  list: function ($) {
+    $("寒假", "2023-01-09 00:00", "2023-02-20 00:00");
+    $("考试", "2023-02-20 00:00", "2023-02-26 00:00");
+    $("", "2023-02-26 00:00", "2023-07-15 00:00");
+  }
 }
 
-timer.find = function () {
-  let $ = timer.try;
-  $("寒假", "2023-01-09", "2023-02-19");
-  $("考试", "2023-02-19", "2023-02-26");
-  $("", "2023-02-26", "2023-07-15");
-}
-
-timer.try = function tryingMethod(nextTitle, nextStart, nextEnd) {
-  if (nextStart.length == 10) nextStart += "T00:00";
-  if (nextEnd.length == 10) nextEnd += "T00:00";
-  nextStart = new Date(`${nextStart}+08:00`);
-  nextEnd = new Date(`${nextEnd}+08:00`);
+timer.try = function (nextTitle, nextStart, nextEnd) {
+  nextStart = new Date(nextStart + "+08:00");
+  nextEnd = new Date(nextEnd + "+08:00");
   if (timer.now > timer.end && timer.now <= nextEnd) {
     timer.title = nextTitle;
     timer.start = nextStart;
@@ -26,7 +22,7 @@ timer.try = function tryingMethod(nextTitle, nextStart, nextEnd) {
 
 timer.update = function () {
   this.now = new Date();
-  if (this.now > this.end) this.find();
+  if (this.now > this.end) this.list(this.try);
   let today = {
     week: Math.ceil(this.start.getDay() / 7 + (this.now - this.start) / 6048E5),
     passed: Math.ceil((this.now - this.start) / 864E5),
@@ -39,10 +35,4 @@ timer.update = function () {
   this.ele[2].style.width = `${today.progress}%`;
 }
 
-timer.load = function () {
-  timer.start = timer.end = new Date(0);
-  timer.update();
-}
-
-timer.load();
-// timer.load.interval=setInterval(timer.load,100);
+timer.update();

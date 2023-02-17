@@ -27,10 +27,10 @@ nav.list[0] = [{
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
-    { text: "西邮试卷",desc:"仓库欢迎贡献", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
+    { text: "西邮试卷",desc:"欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "学信网", link: "https://www.chsi.com.cn/" },
-    { text: "四六级报名", link: "https://cet-bm.neea.edu.cn/" },
+    { text: "四六级", desc: "考试报名", link: "https://cet-bm.neea.edu.cn/" },
   ]
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
@@ -84,11 +84,11 @@ nav.list.forEach((list, i) => {
     ${group.desc ? `<p class="dim">${group.desc}</p>` : ``}
     </div>
     <div class="list">
-    ${group.item.map(item => `<a 
+    ${group.item.map(item => `
+      <a ${item.desc ? `data-sub="${item.desc}"` : ``}
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-      ${item.desc ? `data-sub="${item.desc}"` : ``}
-      >${item.icon ? `<i class="${item.icon}"></i>` : ``}${item.text}</a>`)
-      .join(`\n`)}
+      >${item.icon ? `<i class="${item.icon}"></i>` : ``}${item.text}</a>
+      `).join(`\n`)}
     </div>
     </div>`).join(`\n`)
 })
