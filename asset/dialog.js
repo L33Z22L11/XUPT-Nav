@@ -19,7 +19,7 @@ dialog.listQR = {
     青年大学习: "https://h5.sxgqt.org.cn/#/statisticsNews",
 }
 
-dialog.qr = name => {
+dialog.wxQR = name => {
     if (window.navigator.userAgent.match("MicroMessenger"))
         return open(dialog.listQR[name])
     dialog.title.innerHTML = `<i class="fa-brands fa-weixin"></i> ${name}`
