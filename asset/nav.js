@@ -73,6 +73,7 @@ nav.list[1] = [{
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
     { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
+    { text: "plus studio", link: "https://studyinglover.com/" },
   ]
 },]
 
