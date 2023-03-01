@@ -29,6 +29,8 @@ nav.list[0] = [{
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷",desc:"欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
+    { text: "洛谷", link: "https://www.luogu.com.cn/" },
+    { text: "力扣", link: "https://leetcode.cn/" },
     { text: "学信网", link: "https://www.chsi.com.cn/" },
     { text: "四六级", desc: "考试报名", link: "https://cet-bm.neea.edu.cn/" },
   ]
