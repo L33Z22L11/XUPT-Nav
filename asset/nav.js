@@ -27,7 +27,7 @@ nav.list[0] = [{
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
-    { text: "西邮试卷",desc:"欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
+    { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "洛谷", link: "https://www.luogu.com.cn/" },
     { text: "力扣", link: "https://leetcode.cn/" },
@@ -37,7 +37,8 @@ nav.list[0] = [{
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
-    { text: "东区导航", desc: "隔壁小O", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
+    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-mobile-screen-button", link: "https://8.u.h5mc.com/c/7oor/ygju/index.html" },
+    { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-brands fa-weixin", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
   ]
 },]
