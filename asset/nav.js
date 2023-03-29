@@ -46,6 +46,7 @@ nav.list[1] = [{
   name: "第三方导航", icon: "fa-solid fa-signs-post", item: [
     { text: "半岛导航", desc: "西邮 学习", link: "https://www.bandao.ltd/guidance/" },
     { text: "掘金酱", desc: "开发者", link: "https://e.juejin.cn/" },
+    { text: "别摸鱼", desc: "AI 新媒体", link: "https://biemoyu.com/" },
     { text: "下次一定", desc: "影视 工具 装机", link: "https://www.iiice.cn/" },
     { text: "蜗牛导航", desc: "开发 设计", link: "https://s.eallion.com/" },
     { text: "禾坡导航", desc: "运营 美工", link: "http://www.hepou.com/" },
