@@ -24,6 +24,7 @@ nav.list[0] = [{
     { text: "常用服务导航", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", link: "http://one.xupt.edu.cn/EIP" },
     { text: "信息直通车", link: "http://ztc.sec.xupt.edu.cn/" },
+    { text: "正版软件", link: "http://ms.xupt.edu.cn/" },
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
