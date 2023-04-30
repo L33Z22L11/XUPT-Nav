@@ -15,7 +15,7 @@ nav.list[0] = [{
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
     { text: "校园信息门户", desc: "教务 内网 邮箱", link: "http://i.xiyou.edu.cn/" },
-    { text: "🔥教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
+    { text: "教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
     { text: "教育邮箱", link: "http://webmail.xupt.edu.cn/" },
     { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.wxQR(this.textContent)" },
