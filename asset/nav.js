@@ -32,7 +32,7 @@ nav.list[0] = [{
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "洛谷", link: "https://www.luogu.com.cn/" },
     { text: "力扣", link: "https://leetcode.cn/" },
-    { text: "学信网", link: "https://www.chsi.com.cn/" },
+    { text: "学信档案", link: "https://my.chsi.com.cn/archive/index.action" },
     { text: "四六级", desc: "考试报名", link: "https://cet-bm.neea.edu.cn/" },
   ]
 }, {
@@ -72,6 +72,7 @@ nav.list[1] = [{
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", link: "https://store.rg-adguard.net/" },
     { text: "Digit77", link: "https://www.digit77.com/" },
+    { text: "JB破解", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
