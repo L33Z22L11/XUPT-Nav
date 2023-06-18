@@ -18,8 +18,9 @@ nav.list[0] = [{
     { text: "教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
     { text: "教育邮箱", link: "http://webmail.xupt.edu.cn/" },
-    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.wxQR(this.textContent)" },
-    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.wxQR(this.textContent)" },
+    { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-cube", js: "dialog.QR(this.textContent)" },
+    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.QR(this.textContent)" },
+    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.QR(this.textContent)" },
     { text: "西邮官网", link: "http://xupt.edu.cn/" },
     { text: "常用服务导航", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", link: "http://one.xupt.edu.cn/EIP" },
@@ -38,7 +39,7 @@ nav.list[0] = [{
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
-    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-mobile-screen-button", link: "https://8.u.h5mc.com/c/7oor/ygju/index.html" },
+    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-mobile-screen-button", js: "dialog.phone(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-brands fa-weixin", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
   ]

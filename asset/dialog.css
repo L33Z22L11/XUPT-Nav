@@ -25,7 +25,9 @@
 }
 
 #dialog>.card {
+    width: 80vw;
     max-width: 720px;
+    max-height: 100vh;
     height: auto;
     margin: 1rem;
     word-break: break-word;

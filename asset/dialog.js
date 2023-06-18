@@ -15,15 +15,19 @@ dialog.msg = name => {
 }
 
 dialog.listQR = {
+    我在校园: "https://gw.wozaixiaoyuan.com/h5/mobile/basicinfo/index",
     第二课堂: "https://win.9xueqi.com/",
     青年大学习: "https://h5.sxgqt.org.cn/#/statisticsNews",
+    逸夫楼地图: "https://8.u.h5mc.com/c/7oor/ygju/index.html",
 }
 
-dialog.wxQR = name => {
-    if (window.navigator.userAgent.match("MicroMessenger"))
-        return open(dialog.listQR[name])
+dialog.phone = name => {
+    open(dialog.listQR[name], name, 'height=720px,width=360px,left=720px')
+}
+
+dialog.QR = name => {
     dialog.title.innerHTML = `<i class="fa-brands fa-weixin"></i> ${name}`
-    dialog.content.innerHTML = `微信扫一扫，一键打开。<br>(手机浏览器用户请在微信内打开网站)`
+    dialog.content.innerHTML = `微信扫一扫、<a href="${dialog.listQR[name]}">点击此处强制打开</a>或者<a onclick="dialog.phone('${name}')">点击此处以模拟手机模式打开</a>。`
     new QRCode(dialog.content, dialog.listQR[name])
     dialog.show()
 }
