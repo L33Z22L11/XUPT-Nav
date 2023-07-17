@@ -27,7 +27,7 @@ dialog.phone = name => {
 
 dialog.QR = name => {
     dialog.title.innerHTML = `<i class="fa-brands fa-weixin"></i> ${name}`
-    dialog.content.innerHTML = `微信扫一扫、<a href="${dialog.listQR[name]}">点击此处强制打开</a>或者<a onclick="dialog.phone('${name}')">点击此处以模拟手机模式打开</a>。`
+    dialog.content.innerHTML = `微信扫一扫、<a href="${dialog.listQR[name]}"><u>强制打开</u></a>或者<a onclick="dialog.phone('${name}')"><u>模拟手机尺寸打开</u></a>。`
     new QRCode(dialog.content, dialog.listQR[name])
     dialog.show()
 }
