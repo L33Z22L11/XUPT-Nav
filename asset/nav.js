@@ -67,6 +67,7 @@ nav.list[1] = [{
     { text: "稿定PS", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", link: "http://tools.miku.ac/" },
+    { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
