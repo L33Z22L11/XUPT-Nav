@@ -55,6 +55,15 @@ nav.list[1] = [{
     { text: "蜗牛导航", desc: "开发 设计", link: "https://s.eallion.com/" },
   ]
 }, {
+  name: "AI工具", icon: "fa-solid fa-robot",
+  item: [
+    { text: "ChatGPT", link: "https://chat.openai.com/" },
+    { text: "文心一言", link: "https://yiyan.baidu.com/" },
+    { text: "Poe", link: "https://poe.com/" },
+    { text: "Perplexity", link: "https://www.perplexity.ai/" },
+    { text: "Theb.ai", link: "https://beta.theb.ai/" },
+  ]
+}, {
   name: "校友推荐", icon: "fa-solid fa-inbox",
   desc: `<a onclick="dialog.msg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
