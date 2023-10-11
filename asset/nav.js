@@ -58,8 +58,13 @@ nav.list[1] = [{
 }, {
   name: "AI工具", icon: "fa-solid fa-robot",
   item: [
-    { text: "ChatGPT", link: "https://chat.openai.com/" },
     { text: "文心一言", link: "https://yiyan.baidu.com/" },
+    { text: "通义千问", link: "https://qianwen.aliyun.com/" },
+    { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/desk" },
+    { text: "昆仑天工", link: "https://search.tiangong.cn/" },
+    { text: "商汤商量", link: "https://chat.sensetime.com/" },
+    { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
+    { text: "ChatGPT", link: "https://chat.openai.com/" },
     { text: "Poe", link: "https://poe.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
     { text: "Theb.ai", link: "https://beta.theb.ai/" },
