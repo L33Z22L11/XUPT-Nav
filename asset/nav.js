@@ -82,14 +82,16 @@ nav.list[1] = [{
     { text: "帮小忙", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", link: "http://tools.miku.ac/" },
     { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
-    { text: "联想应用商店", link: "https://lestore.lenovo.com/" },
+    { text: "Win软件", desc: "联想应用商店", link: "https://lestore.lenovo.com/" },
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", link: "https://store.rg-adguard.net/" },
-    { text: "Digit77", link: "https://www.digit77.com/" },
-    { text: "JB破解", link: "https://3.jetbra.in/" },
+    { text: "Win镜像", desc: "UUPDump", link: "https://www.uupdump.cn/" },
+    { text: "Mac软件", desc: "Digit77", link: "https://www.digit77.com/" },
+    { text: "JB激活", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
