@@ -18,9 +18,9 @@ nav.list[0] = [{
     { text: "教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
     { text: "教育邮箱", link: "http://webmail.xupt.edu.cn/" },
-    { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-cube", js: "dialog.QR(this.textContent)" },
-    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.QR(this.textContent)" },
-    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.QR(this.textContent)" },
+    { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showQR(this.textContent)" },
+    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.showQR(this.textContent)" },
+    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.showQR(this.textContent)" },
     { text: "西邮官网", link: "http://xupt.edu.cn/" },
     { text: "常用服务导航", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", link: "http://one.xupt.edu.cn/EIP" },
@@ -44,6 +44,7 @@ nav.list[0] = [{
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-mobile-screen-button", js: "dialog.phone(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-brands fa-weixin", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
+    { text: "邮立方", icon: "fa-solid fa-cube", desc: "校园MC交流", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
 
@@ -61,6 +62,7 @@ nav.list[1] = [{
     { text: "文心一言", link: "https://yiyan.baidu.com/" },
     { text: "通义千问", link: "https://qianwen.aliyun.com/" },
     { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/desk" },
+    { text: "智谱清言", link: "https://chatglm.cn/" },
     { text: "昆仑天工", link: "https://search.tiangong.cn/" },
     { text: "商汤商量", link: "https://chat.sensetime.com/" },
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
@@ -71,7 +73,7 @@ nav.list[1] = [{
   ]
 }, {
   name: "校友推荐", icon: "fa-solid fa-inbox",
-  desc: `<a onclick="dialog.msg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
+  desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
   ]
@@ -95,7 +97,7 @@ nav.list[1] = [{
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
-  desc: `<a onclick="dialog.msg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
+  desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
     { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
