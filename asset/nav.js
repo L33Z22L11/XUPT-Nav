@@ -7,36 +7,38 @@ let nav = {
 
 nav.list[0] = [{
   name: "线上课时", icon: "fa-solid fa-chalkboard-user", item: [
-    { text: "学习通", link: "http://i.chaoxing.com/" },
-    { text: "U校园", link: "https://u.unipus.cn/user/student" },
-    { text: "iWrite", link: "http://iwrite.unipus.cn/student" },
-    { text: "中国大学MOOC", link: "https://icourse163.org/home.htm" },
+    { text: "学习通", icon: "fa-solid fa-star", link: "http://i.chaoxing.com/" },
+    { text: "U校园", icon: "fa-solid fa-u", link: "https://u.unipus.cn/user/student" },
+    { text: "iWrite", icon: "fa-solid fa-pen-nib", link: "http://iwrite.unipus.cn/student" },
+    { text: "中国大学MOOC", icon: "fa-solid fa-book-open", link: "https://icourse163.org/home.htm" },
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
-    { text: "校园信息门户", desc: "教务 内网 邮箱", link: "http://i.xiyou.edu.cn/" },
-    { text: "教务系统", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
-    { text: "内网资源", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
-    { text: "教育邮箱", link: "http://webmail.xupt.edu.cn/" },
+    { text: "校园信息门户", icon: "fa-solid fa-street-view", desc: "教务 内网 邮箱", link: "http://i.xiyou.edu.cn/" },
+    { text: "教务系统", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
+    { text: "内网资源", icon: "fa-solid fa-building-lock", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
+    { text: "教育邮箱", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showQR(this.textContent)" },
-    { text: "青年大学习", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.showQR(this.textContent)" },
-    { text: "第二课堂", desc: "微信“西邮青年”", icon: "fa-brands fa-weixin", js: "dialog.showQR(this.textContent)" },
-    { text: "西邮官网", link: "http://xupt.edu.cn/" },
-    { text: "常用服务导航", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
-    { text: "办事大厅", link: "http://one.xupt.edu.cn/EIP" },
-    { text: "信息直通车", link: "http://ztc.sec.xupt.edu.cn/" },
-    { text: "正版软件", link: "http://ms.xupt.edu.cn/" },
+    { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showQR(this.textContent)" },
+    { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showQR(this.textContent)" },
+    { text: "西邮官网", icon: "fa-solid fa-globe", link: "http://xupt.edu.cn/" },
+    {
+      text: "常用服务导航", icon: "fa-solid fa-taxi", link: "http://xupt.edu.cn/xxfw/cyfw1.htm"
+    },
+    { text: "办事大厅", icon: "fa-solid fa-building-columns", link: "http://one.xupt.edu.cn/EIP" },
+    { text: "信息直通车", icon: "fa-solid fa-train-subway", link: "http://ztc.sec.xupt.edu.cn/" },
+    { text: "正版软件", icon: "fa-solid fa-cubes", link: "http://ms.xupt.edu.cn/" },
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
-    { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
-    { text: "船长的网课", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
-    { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
-    { text: "洛谷", link: "https://www.luogu.com.cn/" },
-    { text: "力扣", link: "https://leetcode.cn/" },
-    { text: "学信档案", link: "https://my.chsi.com.cn/archive/index.action" },
-    { text: "四六级", desc: "考试报名", link: "https://cet-bm.neea.edu.cn/" },
+    { text: "电路仿真", desc: "CircuitJS1", icon: "fa-solid fa-plug", link: "http://www.falstad.com/circuit/circuitjs.html" },
+    { text: "船长的网课", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
+    { text: "打字背单词", icon: "fa-solid fa-keyboard", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
+    { text: "洛谷", icon: "fa-solid fa-dna", link: "https://www.luogu.com.cn/" },
+    { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
+    { text: "学信档案", icon: "fa-solid fa-address-card", link: "https://my.chsi.com.cn/archive/index.action" },
+    { text: "四六级报名", icon: "fa-solid fa-scroll", link: "https://cet-bm.neea.edu.cn/" },
   ]
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
@@ -81,19 +83,19 @@ nav.list[1] = [{
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
     { text: "菜鸟工具", link: "https://c.runoob.com/" },
     { text: "稿定PS", link: "https://ps.gaoding.com/" },
-    { text: "帮小忙", link: "https://tool.browser.qq.com/" },
+    { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", link: "http://tools.miku.ac/" },
     { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
     { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
-    { text: "Win软件", desc: "联想应用商店", link: "https://lestore.lenovo.com/" },
-    { text: "果核剥壳", link: "https://www.ghxi.com/" },
-    { text: "微软商店解析", link: "https://store.rg-adguard.net/" },
-    { text: "Win镜像", desc: "UUPDump", link: "https://www.uupdump.cn/" },
-    { text: "Mac软件", desc: "Digit77", link: "https://www.digit77.com/" },
-    { text: "JB激活", desc: "JetBra.in", link: "https://3.jetbra.in/" },
+    { text: "Win软件", icon: "fa-brands fa-microsoft", desc: "联想应用商店", link: "https://lestore.lenovo.com/" },
+    { text: "果核剥壳", icon: "fa-solid fa-shapes", link: "https://www.ghxi.com/" },
+    { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
+    { text: "Win镜像", icon: "fa-brands fa-windows", desc: "UUPDump", link: "https://www.uupdump.cn/" },
+    { text: "Mac破解", icon: "fa-solid fa-apple-whole", desc: "Digit77", link: "https://www.digit77.com/" },
+    { text: "JB激活", icon: "fa-solid fa-square-virus", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
@@ -116,7 +118,7 @@ nav.list.forEach((list, i) => {
     ${group.item.map(item => `
       <a ${item.desc ? `data-sub="${item.desc}"` : ``}
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-      >${item.icon ? `<i class="${item.icon}"></i>` : ``}${item.text}</a>
+      >${item.icon ? `<i class="${item.icon}"></i>&thinsp;` : ``}${item.text}</a>
       `).join(`\n`)}
     </div>
     </div>`).join(`\n`)
