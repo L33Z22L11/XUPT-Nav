@@ -43,8 +43,8 @@ nav.list[0] = [{
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
-    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-mobile-screen-button", js: "dialog.phone(this.textContent)" },
-    { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-brands fa-weixin", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
+    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.phone(this.textContent)" },
+    { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
     { text: "邮立方", icon: "fa-solid fa-cube", desc: "校园MC交流", js: "dialog.showMsg(this.textContent)" },
   ]
@@ -78,14 +78,14 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
+    { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
-    { text: "菜鸟工具", link: "https://c.runoob.com/" },
-    { text: "稿定PS", link: "https://ps.gaoding.com/" },
+    { text: "菜鸟工具", desc: "运行代码", link: "https://c.runoob.com/" },
+    { text: "稿定PS", desc: "PhotoPea", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
-    { text: "MikuTools", link: "http://tools.miku.ac/" },
-    { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
     { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
   ]
 }, {
@@ -118,7 +118,7 @@ nav.list.forEach((list, i) => {
     ${group.item.map(item => `
       <a ${item.desc ? `data-sub="${item.desc}"` : ``}
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-      >${item.icon ? `<i class="${item.icon}"></i>&thinsp;` : ``}${item.text}</a>
+      >${item.icon ? `<i class="${item.icon} fa-space"></i>` : ``}${item.text}</a>
       `).join(`\n`)}
     </div>
     </div>`).join(`\n`)

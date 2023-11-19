@@ -91,10 +91,13 @@ body>* {
 
 .fa-solid,
 .fa-regular,
-.fa-brands,
-.fa-width {
+.fa-brands {
     min-width: 1.2em;
     text-align: center;
+}
+
+.fa-space::after {
+    content: ' ';
 }
 
 [data-sub] {
