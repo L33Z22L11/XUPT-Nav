@@ -18,6 +18,7 @@
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(.2rem);
 }
 
 #dialog.hidden {
@@ -27,18 +28,17 @@
 #dialog>.card {
     width: 80vw;
     max-width: 720px;
-    max-height: 100vh;
     height: auto;
+    max-height: 100vh;
     margin: 1rem;
     word-break: break-word;
 }
 
 #dialogContent>canvas,
 #dialogContent>img {
-    max-width: 100%;
+    max-width: 80%;
     margin: 1rem auto;
     padding: 1em;
-    text-align: center;
     border-radius: 1em;
     background: #fff;
 }

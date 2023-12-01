@@ -15,7 +15,6 @@
     --ac3: rgba(0, 127, 255, .2);
 }
 
-
 @media (prefers-color-scheme: dark) {
     :root {
         --bg1: #111;
@@ -73,7 +72,22 @@ pre {
 }
 
 ::selection {
-    background: var(--ac3);
+    background: var(--ac2);
+}
+
+::-webkit-scrollbar {
+    background: none;
+    margin: 12rem;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-corner {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background: var(--ac2);
 }
 
 html {
@@ -131,7 +145,6 @@ footer {
     column-count: 2;
     column-gap: 1rem;
 }
-
 
 @media(max-width: 720px) {
     .bicol {

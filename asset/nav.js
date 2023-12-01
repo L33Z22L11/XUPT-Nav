@@ -111,15 +111,15 @@ nav.list.forEach((list, i) => {
   nav.ele[i].innerHTML = list.map(group => `
     <div class="card">
     <div class="between">
-    <h4><i class="${group.icon}"></i> ${group.name}</h4>
+    <h4><i class="${group.icon} fa-space"></i>${group.name}</h4>
     ${group.desc ? `<p class="dim">${group.desc}</p>` : ``}
     </div>
     <div class="list">
     ${group.item.map(item => `
-      <a ${item.desc ? `data-sub="${item.desc}"` : ``}
+      <a data-sub="${item.desc || ""}"
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-      >${item.icon ? `<i class="${item.icon} fa-space"></i>` : ``}${item.text}</a>
-      `).join(`\n`)}
+    >${item.icon ? `<i class="${item.icon} fa-space"></i>` : ``}${item.text}</a>
+    `).join(`\n`)}
     </div>
     </div>`).join(`\n`)
 })
