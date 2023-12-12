@@ -17,14 +17,13 @@ nav.list[0] = [{
     { text: "校园信息门户", icon: "fa-solid fa-street-view", desc: "教务 内网 邮箱", link: "http://i.xiyou.edu.cn/" },
     { text: "教务系统", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", icon: "fa-solid fa-building-lock", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
+    { text: "电子教材", icon: "fa-solid fa-book", desc: "西邮图书馆", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
     { text: "教育邮箱", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showQR(this.textContent)" },
     { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showQR(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showQR(this.textContent)" },
     { text: "西邮官网", icon: "fa-solid fa-globe", link: "http://xupt.edu.cn/" },
-    {
-      text: "常用服务导航", icon: "fa-solid fa-taxi", link: "http://xupt.edu.cn/xxfw/cyfw1.htm"
-    },
+    { text: "常用服务导航", icon: "fa-solid fa-taxi", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", icon: "fa-solid fa-building-columns", link: "http://one.xupt.edu.cn/EIP" },
     { text: "信息直通车", icon: "fa-solid fa-train-subway", link: "http://ztc.sec.xupt.edu.cn/" },
     { text: "正版软件", icon: "fa-solid fa-cubes", link: "http://ms.xupt.edu.cn/" },
@@ -33,7 +32,9 @@ nav.list[0] = [{
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "电路仿真", desc: "CircuitJS1", icon: "fa-solid fa-plug", link: "http://www.falstad.com/circuit/circuitjs.html" },
-    { text: "船长的网课", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
+    { text: "船长的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
+    { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
+    { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.zlibrary-east.se/" },
     { text: "打字背单词", icon: "fa-solid fa-keyboard", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "洛谷", icon: "fa-solid fa-dna", link: "https://www.luogu.com.cn/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
@@ -79,6 +80,7 @@ nav.list[1] = [{
   item: [
     { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
     { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "领红包", desc: "每天薅羊毛", icon: "fa-brands fa-alipay", js: "dialog.showQR('支付宝红包')" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [

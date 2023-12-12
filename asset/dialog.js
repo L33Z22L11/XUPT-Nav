@@ -17,6 +17,7 @@ dialog.showMsg = (name) => {
 }
 
 dialog.QRs = {
+    支付宝红包: { icon: "fa-solid fa-sack-dollar", code: "https://qr.alipay.com/11w14884hevnzbvvrb9ao05" },
     我在校园: { code: "https://gw.wozaixiaoyuan.com/h5/mobile/basicinfo/index" },
     第二课堂: { code: "https://win.9xueqi.com/" },
     青年大学习: { code: "https://h5.sxgqt.org.cn/#/statisticsNews" },
@@ -24,14 +25,14 @@ dialog.QRs = {
 }
 
 dialog.phone = link => {
-    open(link, 'height=720px,width=360px,left=720px')
+    open(link, "_blank", 'height=720px,width=360px,left=720px')
 }
 
 dialog.showQR = name => {
     let item = dialog.QRs[name]
     console.log(name, dialog.QRs, item)
     dialog.title.innerHTML = `<i class="${item.icon || "fa-solid fa-qrcode"} fa-space"></i>${name}`
-    dialog.content.innerHTML = `微信扫一扫或者<a onclick="dialog.phone('${name}')"><u>模拟手机尺寸打开</u></a>。`
+    dialog.content.innerHTML = `<strong><a onclick="dialog.phone('${item.code}')">点击模拟手机尺寸打开</a></strong>或者扫一扫。`
     new QRCode(dialog.content, item.code)
     dialog.show()
 }

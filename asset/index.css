@@ -50,6 +50,10 @@ p {
     line-height: 1.5em;
 }
 
+b {
+    font-weight: bolder;
+}
+
 strong {
     color: var(--ac1);
 }
@@ -72,22 +76,8 @@ pre {
 }
 
 ::selection {
-    background: var(--ac2);
-}
-
-::-webkit-scrollbar {
-    background: none;
-    margin: 12rem;
-    width: .5rem;
-}
-
-::-webkit-scrollbar-corner {
-    background: none;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 1em;
-    background: var(--ac2);
+    /* color: var(--ac1); */
+    background: var(--ac3);
 }
 
 html {
@@ -117,7 +107,7 @@ body>* {
 [data-sub] {
     display: inline-block;
     text-align: center;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 [data-sub]::after {
@@ -132,6 +122,7 @@ body>* {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: .5em;
 }
 
 .dim,
@@ -151,6 +142,7 @@ footer {
         column-count: 1;
     }
 
+    nav.between,
     footer.between {
         align-items: stretch;
         flex-direction: column;

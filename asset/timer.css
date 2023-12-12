@@ -16,7 +16,18 @@
     right: 0;
     width: .2em;
     height: 100%;
-    content: ' ';
-    background: var(--ac1);
-    box-shadow: 0 0 .2em var(--ac1);
+    content: '';
+    animation: twinkle 1s alternate infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        background: var(--ac3);
+        box-shadow: 0 0 .5em var(--ac1);
+    }
+
+    100% {
+        background: var(--ac1);
+        box-shadow: 0 0 .2em var(--ac1);
+    }
 }
