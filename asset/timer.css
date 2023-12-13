@@ -1,4 +1,5 @@
 #timer {
+    color: var(--ac2);
     position: relative;
     gap: 2em;
 }

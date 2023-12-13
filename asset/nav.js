@@ -44,7 +44,7 @@ nav.list[0] = [{
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
-    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.phone(this.textContent)" },
+    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showQR(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
     { text: "邮立方", icon: "fa-solid fa-cube", desc: "校园MC交流", js: "dialog.showMsg(this.textContent)" },
@@ -93,11 +93,11 @@ nav.list[1] = [{
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
     { text: "Win软件", icon: "fa-brands fa-microsoft", desc: "联想应用商店", link: "https://lestore.lenovo.com/" },
-    { text: "果核剥壳", icon: "fa-solid fa-shapes", link: "https://www.ghxi.com/" },
+    { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", icon: "fa-brands fa-windows", desc: "UUPDump", link: "https://www.uupdump.cn/" },
-    { text: "Mac破解", icon: "fa-solid fa-apple-whole", desc: "Digit77", link: "https://www.digit77.com/" },
-    { text: "JB激活", icon: "fa-solid fa-square-virus", desc: "JetBra.in", link: "https://3.jetbra.in/" },
+    { text: "Mac破解", icon: "fa-brands fa-apple", desc: "Digit77", link: "https://www.digit77.com/" },
+    { text: "JB激活", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
