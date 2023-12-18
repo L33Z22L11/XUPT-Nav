@@ -1,13 +1,13 @@
 #timer {
-    color: var(--ac2);
+    color: var(--ac1);
     position: relative;
-    gap: 2em;
+    gap: 2rem;
 }
 
 #timer>.progress {
     position: absolute;
     bottom: 0;
-    height: .2em;
+    height: .2rem;
     margin: 0;
     background: linear-gradient(to right, var(--ac3), var(--ac2));
 }
@@ -15,7 +15,7 @@
 #timer>.progress::after {
     position: absolute;
     right: 0;
-    width: .2em;
+    width: .2rem;
     height: 100%;
     content: '';
     animation: twinkle 1s alternate infinite;
@@ -24,11 +24,11 @@
 @keyframes twinkle {
     0% {
         background: var(--ac3);
-        box-shadow: 0 0 .5em var(--ac1);
+        box-shadow: 0 0 .5rem var(--ac1);
     }
 
     100% {
         background: var(--ac1);
-        box-shadow: 0 0 .2em var(--ac1);
+        box-shadow: 0 0 .2rem var(--ac1);
     }
 }

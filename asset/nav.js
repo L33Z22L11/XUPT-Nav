@@ -14,11 +14,11 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
-    { text: "校园信息门户", icon: "fa-solid fa-street-view", desc: "教务 内网 邮箱", link: "http://i.xiyou.edu.cn/" },
+    { text: "个人中心", desc: "校园信息门户", icon: "fa-solid fa-street-view", link: "http://i.xiyou.edu.cn/" },
     { text: "教务系统", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
-    { text: "内网资源", icon: "fa-solid fa-building-lock", desc: "WebVPN", link: "http://sec.xupt.edu.cn/" },
-    { text: "电子教材", icon: "fa-solid fa-book", desc: "西邮图书馆", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
-    { text: "教育邮箱", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
+    { text: "内网资源", desc: "WebVPN", icon: "fa-solid fa-building-lock", link: "http://sec.xupt.edu.cn/" },
+    { text: "电子教材", desc: "西邮图书馆", icon: "fa-solid fa-book", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
+    { text: "教育邮箱", desc: "页面右上角能申请", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showQR(this.textContent)" },
     { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showQR(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showQR(this.textContent)" },
@@ -35,7 +35,7 @@ nav.list[0] = [{
     { text: "船长的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.zlibrary-east.se/" },
-    { text: "打字背单词", icon: "fa-solid fa-keyboard", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
+    { text: "打字背单词", desc: "Qwerty Learner", icon: "fa-solid fa-keyboard", link: "https://qwerty.kaiyi.cool/" },
     { text: "洛谷", icon: "fa-solid fa-dna", link: "https://www.luogu.com.cn/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
     { text: "学信档案", icon: "fa-solid fa-address-card", link: "https://my.chsi.com.cn/archive/index.action" },
@@ -46,8 +46,8 @@ nav.list[0] = [{
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showQR(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
-    { text: "西邮合集", icon: "fa-brands fa-bilibili", desc: "半岛的孤城", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
-    { text: "邮立方", icon: "fa-solid fa-cube", desc: "校园MC交流", js: "dialog.showMsg(this.textContent)" },
+    { text: "西邮合集", desc: "半岛的孤城", icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
+    { text: "邮立方", desc: "校园MC交流", icon: "fa-solid fa-cube", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
 
@@ -71,6 +71,7 @@ nav.list[1] = [{
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
     { text: "ChatGPT", link: "https://chat.openai.com/" },
     { text: "Poe", link: "https://poe.com/" },
+    { text: "Copilot", link: "https://copilot.microsoft.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
     { text: "Theb.ai", link: "https://beta.theb.ai/" },
   ]
@@ -92,11 +93,11 @@ nav.list[1] = [{
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
-    { text: "Win软件", icon: "fa-brands fa-microsoft", desc: "联想应用商店", link: "https://lestore.lenovo.com/" },
+    { text: "Win软件", desc: "联想应用商店", icon: "fa-brands fa-microsoft", link: "https://lestore.lenovo.com/" },
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
-    { text: "Win镜像", icon: "fa-brands fa-windows", desc: "UUPDump", link: "https://www.uupdump.cn/" },
-    { text: "Mac破解", icon: "fa-brands fa-apple", desc: "Digit77", link: "https://www.digit77.com/" },
+    { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
+    { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
     { text: "JB激活", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
 }, {

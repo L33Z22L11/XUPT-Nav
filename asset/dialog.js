@@ -32,7 +32,7 @@ dialog.showQR = name => {
     let item = dialog.QRs[name]
     console.log(name, dialog.QRs, item)
     dialog.title.innerHTML = `<i class="${item.icon || "fa-solid fa-qrcode"} fa-space"></i>${name}`
-    dialog.content.innerHTML = `<strong><a onclick="dialog.phone('${item.code}')">点击模拟手机尺寸打开</a></strong>或者扫一扫。`
+    dialog.content.innerHTML = `<strong><a onclick="dialog.phone('${item.code}')">点击打开</a></strong>或者扫描下方二维码。`
     new QRCode(dialog.content, item.code)
     dialog.show()
 }
