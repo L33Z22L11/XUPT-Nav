@@ -105,8 +105,9 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
-    { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
-    { text: "plus studio", link: "https://studyinglover.com/" },
+    { text: "西邮 Linux 兴趣小组", link: "https://linux.cooo.site/" },
+    // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
+    // { text: "plus studio", link: "https://studyinglover.com/" },
   ]
 },]
 
