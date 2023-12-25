@@ -14,14 +14,15 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
+    { text: "教务系统", desc: "期末多给点分吧", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
+    { text: "奖学金/退费", desc: "期末发点money", icon: "fa-brands fa-alipay", js: "dialog.showMsg('西邮财务处')" },
+    { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showMsg(this.textContent)" },
+    { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
+    { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showMsg(this.textContent)" },
     { text: "个人中心", desc: "校园信息门户", icon: "fa-solid fa-street-view", link: "http://i.xiyou.edu.cn/" },
-    { text: "教务系统", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "内网资源", desc: "WebVPN", icon: "fa-solid fa-building-lock", link: "http://sec.xupt.edu.cn/" },
     { text: "电子教材", desc: "西邮图书馆", icon: "fa-solid fa-book", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
     { text: "教育邮箱", desc: "页面右上角能申请", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
-    { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showQR(this.textContent)" },
-    { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showQR(this.textContent)" },
-    { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showQR(this.textContent)" },
     { text: "西邮官网", icon: "fa-solid fa-globe", link: "http://xupt.edu.cn/" },
     { text: "常用服务导航", icon: "fa-solid fa-taxi", link: "http://xupt.edu.cn/xxfw/cyfw1.htm" },
     { text: "办事大厅", icon: "fa-solid fa-building-columns", link: "http://one.xupt.edu.cn/EIP" },
@@ -44,7 +45,7 @@ nav.list[0] = [{
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
-    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showQR(this.textContent)" },
+    { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", desc: "半岛的孤城", icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
     { text: "邮立方", desc: "校园MC交流", icon: "fa-solid fa-cube", js: "dialog.showMsg(this.textContent)" },
@@ -81,7 +82,7 @@ nav.list[1] = [{
   item: [
     { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
     { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
-    { text: "领红包", desc: "每天薅羊毛", icon: "fa-brands fa-alipay", js: "dialog.showQR('支付宝红包')" },
+    { text: "领红包", desc: "每天薅羊毛", icon: "fa-brands fa-alipay", js: "dialog.showMsg('支付宝红包')" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
