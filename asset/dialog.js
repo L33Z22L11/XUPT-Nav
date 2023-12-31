@@ -6,7 +6,6 @@ let dialog = {
 
 dialog.msgs = {
     联系方式: { content: "QQ: 2399052066 (同时支持QQ邮箱)" },
-    邮立方: { content: "邮立方是西邮校内的Minecraft交流群体, 属于Minecraft高校联盟成员组织, QQ群:779877449。" },
     我在校园: { icon: "fa-solid fa-location-dot fa-space", code: "https://gw.wozaixiaoyuan.com/h5/mobile/basicinfo/index" },
     第二课堂: { icon: "fa-solid fa-book-bookmark fa-space", code: "https://win.9xueqi.com/" },
     青年大学习: { icon: "fa-solid fa-medal fa-space", code: "https://h5.sxgqt.org.cn/#/statisticsNews" },

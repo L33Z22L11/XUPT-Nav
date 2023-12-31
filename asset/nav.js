@@ -48,7 +48,7 @@ nav.list[0] = [{
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", desc: "半岛的孤城", icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
-    { text: "邮立方", desc: "校园MC交流", icon: "fa-solid fa-cube", js: "dialog.showMsg(this.textContent)" },
+    { text: "邮立方", desc: "校园MC交流", icon: "fa-solid fa-cube", link: "https://cop.cooo.site" },
   ]
 },]
 
