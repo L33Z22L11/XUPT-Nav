@@ -14,8 +14,8 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
-    { text: "教务系统", desc: "期末多给点分吧", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
-    { text: "奖学金/退费", desc: "期末发点money", icon: "fa-brands fa-alipay", js: "dialog.showMsg('西邮财务处')" },
+    { text: "教务系统", desc: "校务行小程序查分更快", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
+    { text: "奖学金/退费", desc: "支付宝扫码领取", icon: "fa-solid fa-wallet", js: "dialog.showMsg('西邮财务处')" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showMsg(this.textContent)" },
@@ -37,7 +37,6 @@ nav.list[0] = [{
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.zlibrary-east.se/" },
     { text: "打字背单词", desc: "Qwerty Learner", icon: "fa-solid fa-keyboard", link: "https://qwerty.kaiyi.cool/" },
-    { text: "洛谷", icon: "fa-solid fa-dna", link: "https://www.luogu.com.cn/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
     { text: "学信档案", icon: "fa-solid fa-address-card", link: "https://my.chsi.com.cn/archive/index.action" },
     { text: "四六级报名", icon: "fa-solid fa-scroll", link: "https://cet-bm.neea.edu.cn/" },
@@ -87,10 +86,13 @@ nav.list[1] = [{
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
     { text: "菜鸟工具", desc: "运行代码", link: "https://c.runoob.com/" },
-    { text: "稿定PS", desc: "PhotoPea", link: "https://ps.gaoding.com/" },
+    { text: "在线PS", desc: "稿定设计", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
+    { text: "测网速", desc: "东北大学", link: "https://speed4.neu6.edu.cn/" },
     { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
+    { text: "IP检查", desc: "Sukka", link: "https://ip.skk.moe/" },
+    { text: "IP测试", desc: "YesTool", link: "https://myip.yestool.org/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
