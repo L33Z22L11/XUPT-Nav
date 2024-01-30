@@ -7,7 +7,7 @@ let nav = {
 
 nav.list[0] = [{
   name: "线上课时", icon: "fa-solid fa-chalkboard-user", item: [
-    { text: "学习通", icon: "fa-solid fa-star", link: "http://i.chaoxing.com/" },
+    { text: "学习通", icon: "iconfont icon-chaoxing", link: "http://i.chaoxing.com/" },
     { text: "U校园", icon: "fa-solid fa-u", link: "https://u.unipus.cn/user/student" },
     { text: "iWrite", icon: "fa-solid fa-pen-nib", link: "http://iwrite.unipus.cn/student" },
     { text: "中国大学MOOC", icon: "fa-solid fa-book-open", link: "https://icourse163.org/home.htm" },
@@ -47,7 +47,8 @@ nav.list[0] = [{
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "西邮合集", desc: "半岛的孤城", icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
-    { text: "邮立方", desc: "校园MC交流", icon: "fa-solid fa-cube", link: "https://cop.cooo.site" },
+    { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
+    { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
 
@@ -80,7 +81,7 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "旅游地图", desc: "云游西安", link: "http://ditu.ps123.net/china/923.html" },
-    { text: "Arch指南", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
     { text: "领红包", desc: "每天薅羊毛", icon: "fa-brands fa-alipay", js: "dialog.showMsg('支付宝红包')" },
   ]
 }, {
@@ -101,7 +102,7 @@ nav.list[1] = [{
     { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
-    { text: "JB激活", desc: "JetBra.in", link: "https://3.jetbra.in/" },
+    { text: "JB激活", icon: "iconfont icon-apple-mask-icon", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",

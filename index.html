@@ -8,8 +8,10 @@
   <meta name="description" content="CO导航是面向西安邮电大学学生的第三方西邮导航服务，提供学习通、U校园、教务系统、西邮试卷库、期末速成课等资源的访问。">
   <meta name="keywords" content="CO导航,西邮导航,西柚导航">
   <title>CO导航 - 西邮导航服务</title>
-  <link rel="stylesheet" href="./asset/index.css?d=240114">
-  <link href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4427267_nznlqnc75q.css" media="none" onload="this.media='all'">
+  <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css" media="none"
+    onload="this.media='all'">
+  <link rel="stylesheet" href="./asset/index.css?d=240130">
   <base target="_blank">
 </head>
 
@@ -38,7 +40,7 @@
   <div class="bicol navlist">
     <!-- navlist.list[1] -->
   </div>
-  <script src="./asset/nav.js?d=240114"></script>
+  <script src="./asset/nav.js?d=240130"></script>
 
   <!-- dialog -->
   <link rel="stylesheet" href="./asset/dialog.css?d=231201">
@@ -52,23 +54,30 @@
       <div id="dialogContent"></div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
-  <script src="./asset/dialog.js?d=240114"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js" async></script>
+  <script src="./asset/dialog.js?d=240130"></script>
 
   <footer class="between">
     <div>
-      <p>© 2024 纸鹿</p>
+      <p>© 2024 纸鹿
+      </p>
       <a href="https://github.com/L33Z22L11/XUPT-Nav">
         <i class="fa-brands fa-github"></i> L33Z22L11/XUPT-Nav</a>
       <code>感谢Star</code><br>
       <a href="https://jq.qq.com/?_wv=1027&k=lQfNSeEd">
         <i class="fa-brands fa-qq"></i> 技术互助群: 16 999 4096</a><br>
       <a href="https://t.me/xu_tech">
-        <i class="fa-brands fa-telegram"></i> TG摸鱼群: XU_TECH</a>
+        <i class="fa-brands fa-telegram"></i> TG摸鱼群: XU_TECH</a><br>
     </div>
     <div>
+      <p>
+        <i class="fa-solid fa-rotate"></i>
+        <span id="lastCommit">上次更新：获取中</span>
+      </p>
+      <script src="./asset/commit.js" onload="
+          getLastCommit(document.getElementById('lastCommit'), 'L33Z22L11/XUPT-Nav')"></script>
       <p><strong>添加链接</strong>请联系<b>QQ:2399052066</b>或向<b>同名QQ邮箱</b>发送邮件。</p>
-      <p><strong>微信误封</strong>属正常现象，因为本站的部分链接含有<b>盗版/破解</b>内容。</p>
+      <p>本站已支持<strong>微信访问</strong>。</p>
       <p><strong>不赚钱</strong>，交个朋友，如果可以请推荐给同学，希望能帮助到更多校友。</p>
     </div>
   </footer>
