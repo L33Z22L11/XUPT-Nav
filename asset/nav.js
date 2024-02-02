@@ -63,16 +63,17 @@ nav.list[1] = [{
 }, {
   name: "AI工具", icon: "fa-solid fa-robot",
   item: [
-    { text: "文心一言", link: "https://yiyan.baidu.com/" },
-    { text: "通义千问", link: "https://qianwen.aliyun.com/" },
+    { text: "文心一言", desc: "百度", link: "https://yiyan.baidu.com/" },
+    { text: "通义千问", desc: "阿里", link: "https://qianwen.aliyun.com/" },
     { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/desk" },
     { text: "智谱清言", link: "https://chatglm.cn/" },
     { text: "昆仑天工", link: "https://search.tiangong.cn/" },
     { text: "商汤商量", link: "https://chat.sensetime.com/" },
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
     { text: "ChatGPT", link: "https://chat.openai.com/" },
-    { text: "Poe", link: "https://poe.com/" },
-    { text: "Copilot", link: "https://copilot.microsoft.com/" },
+    { text: "ChatGPT", desc: "国内镜像", link: "https://www.ycl.cool/tool/ai/" },
+    { text: "Poe", desc: "Quora", link: "https://poe.com/" },
+    { text: "Copilot", desc: "Microsoft", link: "https://copilot.microsoft.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
     { text: "Theb.ai", link: "https://beta.theb.ai/" },
   ]
@@ -109,6 +110,7 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
+    { text: "纸鹿博客", link: "https://blog.zhilu.cyou/" },
     { text: "西邮 Linux 兴趣小组", link: "https://linux.cooo.site/" },
     // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
     // { text: "plus studio", link: "https://studyinglover.com/" },

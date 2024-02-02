@@ -1,6 +1,6 @@
 function getLastCommit(ele, repo) {
   console.log(`Getting last commit of ${repo}`);
-  fetch(`https://api.github.com/repos/${repo}/commits`)
+  fetch(`https://api.github.com/repos/${repo}/commits?per_page=1`)
     .then(response => response.json())
     .then(data => {
       ele.textContent = `上次更新: ${new Date(data[0].commit.committer.date).toLocaleString()}`
