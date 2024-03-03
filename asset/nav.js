@@ -72,6 +72,7 @@ nav.list[1] = [{
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
     { text: "ChatGPT", link: "https://chat.openai.com/" },
     { text: "ChatGPT", desc: "国内镜像", link: "https://www.ycl.cool/tool/ai/" },
+    { text: "Coze", desc: "字节", link: "https://www.coze.com/home" },
     { text: "Poe", desc: "Quora", link: "https://poe.com/" },
     { text: "Copilot", desc: "Microsoft", link: "https://copilot.microsoft.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
@@ -91,7 +92,6 @@ nav.list[1] = [{
     { text: "在线PS", desc: "稿定设计", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
-    { text: "测网速", desc: "东北大学", link: "https://speed4.neu6.edu.cn/" },
     { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
     { text: "IP检查", desc: "Sukka", link: "https://ip.skk.moe/" },
     { text: "IP测试", desc: "YesTool", link: "https://myip.yestool.org/" },
@@ -102,6 +102,8 @@ nav.list[1] = [{
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
+    { text: "南大镜像", desc: "开源镜像站", link: "https://mirror.nju.edu.cn/" },
+    { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
     { text: "JB激活", icon: "iconfont icon-apple-mask-icon", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
@@ -110,7 +112,7 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
-    { text: "纸鹿博客", link: "https://blog.zhilu.cyou/" },
+    { text: "纸鹿摸鱼处", desc: "个人博客", link: "https://blog.zhilu.cyou/" },
     { text: "西邮 Linux 兴趣小组", link: "https://linux.cooo.site/" },
     // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
     // { text: "plus studio", link: "https://studyinglover.com/" },
