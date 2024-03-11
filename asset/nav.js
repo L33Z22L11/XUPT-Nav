@@ -11,6 +11,8 @@ nav.list[0] = [{
     { text: "U校园", icon: "fa-solid fa-u", link: "https://u.unipus.cn/user/student" },
     { text: "iWrite", icon: "fa-solid fa-pen-nib", link: "http://iwrite.unipus.cn/student" },
     { text: "中国大学MOOC", icon: "fa-solid fa-book-open", link: "https://icourse163.org/home.htm" },
+    { text: "云班课", icon: "fa-solid fa-cloud", link: "https://www.mosoteach.cn/web/" },
+    { text: "蓝桥云课", icon: "iconfont icon-lanqiao", link: "https://www.lanqiao.cn/user/" },
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
