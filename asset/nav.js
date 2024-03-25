@@ -48,8 +48,8 @@ nav.list[0] = [{
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
-    { text: "西邮合集", desc: "半岛的孤城", icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/32187583/channel/collectiondetail?sid=53061" },
     { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
+    { text: "飞跃手册", desc: "毕业经验分享", link: "https://xuptflying.github.io/xupt-flying.github.io/#/" },
     { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
@@ -72,6 +72,7 @@ nav.list[1] = [{
     { text: "昆仑天工", link: "https://search.tiangong.cn/" },
     { text: "商汤商量", link: "https://chat.sensetime.com/" },
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
+    { text: "Kimi.ai", desc: "月之暗面", link: "https://kimi.moonshot.cn/" },
     { text: "ChatGPT", link: "https://chat.openai.com/" },
     { text: "ChatGPT", desc: "国内镜像", link: "https://www.ycl.cool/tool/ai/" },
     { text: "Coze", desc: "字节", link: "https://www.coze.com/home" },
@@ -115,7 +116,8 @@ nav.list[1] = [{
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
     { text: "纸鹿摸鱼处", desc: "个人博客", link: "https://blog.zhilu.cyou/" },
-    { text: "西邮 Linux 兴趣小组", link: "https://linux.cooo.site/" },
+    { text: "西邮 Linux 兴趣小组", link: "https://xiyoulinux.com/" },
+    { text: "邮立方", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
     // { text: "plus studio", link: "https://studyinglover.com/" },
   ]
