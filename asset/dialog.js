@@ -12,7 +12,7 @@ dialog.msgs = {
     逸夫楼地图: { content: "学长做的，但是要旋转屏幕方向才能使用。", code: "https://8.u.h5mc.com/c/7oor/ygju/index.html" },
     西邮财务处: { icon: "fa-solid fa-money-bills", content: "支付宝扫码，查询/领取来自西邮财务处的奖学金/退费。", code: "http://wx.weiweixiao.net/index.php/Wap/ModFfgl/index/token/eoQ1mDMc7BGAAAAWPgst-A.html" },
     支付宝红包: { icon: "fa-solid fa-sack-dollar", content: "支付宝扫码领红包，消费时可用。你也可以在“赚钱红包”小程序内生成你的红包码。", code: "https://qr.alipay.com/11w14884hevnzbvvrb9ao05" },
-    西柚oi: { icon: "iconfont icon-xiaohongshu", content: "小红书APP扫码加入，二维码3月31日前有效", code: "http://xhslink.com/j4oRKC" },
+    西柚oi: { icon: "iconfont icon-xiaohongshu", content: "小红书APP扫码加入，二维码5月15日前有效", code: "http://xhslink.com/HWC5GG" },
 }
 
 dialog.showMsg = (name) => {
