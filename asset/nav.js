@@ -49,7 +49,7 @@ nav.list[0] = [{
     { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     { text: "飞跃手册", desc: "毕业经验分享", link: "https://xuptflying.github.io/xupt-flying.github.io/#/" },
     { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
-  ] 
+  ]
 },]
 
 nav.list[1] = [{
@@ -83,10 +83,11 @@ nav.list[1] = [{
   name: "校友推荐", icon: "fa-solid fa-inbox",
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
-    { text: "打字背单词", desc: "Qwerty Learner", icon: "fa-solid fa-keyboard", link: "https://qwerty.kaiyi.cool/" },
+    { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
-    { text: "电路仿真", desc: "CircuitJS1", icon: "fa-solid fa-plug", link: "http://www.falstad.com/circuit/circuitjs.html" },
+    { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
+    { text: "Yesicon", desc: "前端图标库", link: "https://yesicon.app/" },
     { text: "开发速查", icon: "fa-solid fa-swatchbook", desc: "Quick Reference", link: "https://quickref.cn/" },
   ]
 }, {
@@ -97,7 +98,7 @@ nav.list[1] = [{
     { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
     { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
     { text: "IP检查", desc: "Sukka", link: "https://ip.skk.moe/" },
-    { text: "IP测试", desc: "YesTool", link: "https://myip.yestool.org/" },
+    { text: "MyIP", desc: "IP工具箱", link: "https://ipcheck.ing/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
