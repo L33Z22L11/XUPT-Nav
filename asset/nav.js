@@ -13,6 +13,7 @@ nav.list[0] = [{
     { text: "中国大学MOOC", icon: "fa-solid fa-book-open", link: "https://icourse163.org/home.htm" },
     { text: "云班课", icon: "fa-solid fa-cloud", link: "https://www.mosoteach.cn/web/" },
     { text: "蓝桥云课", icon: "iconfont icon-lanqiao", link: "https://www.lanqiao.cn/user/?tab=2#:~:text=%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B" },
+    { text: "拼题A", icon: "fa-solid fa-laptop-code", link: "https://pintia.cn/problem-sets/active" },
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [
@@ -88,7 +89,8 @@ nav.list[1] = [{
     { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
     { text: "Yesicon", desc: "前端图标库", link: "https://yesicon.app/" },
-    { text: "开发速查", icon: "fa-solid fa-swatchbook", desc: "Quick Reference", link: "https://quickref.cn/" },
+    { text: "开发速查", desc: "Quick Reference", icon: "fa-solid fa-swatchbook", link: "https://quickref.cn/" },
+    { text: "在线DOS", desc: "MASM 汇编", link: "https://dosasm.github.io/dosrun/" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
