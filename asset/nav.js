@@ -86,11 +86,12 @@ nav.list[1] = [{
   item: [
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "画流程图", desc: "Draw.io", link: "https://draw.io/" },
     { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
     { text: "Yesicon", desc: "前端图标库", link: "https://yesicon.app/" },
     { text: "开发速查", desc: "Quick Reference", icon: "fa-solid fa-swatchbook", link: "https://quickref.cn/" },
-    { text: "在线DOS", desc: "MASM 汇编", link: "https://dosasm.github.io/dosrun/" },
+    { text: "在线DOS", desc: "MASM汇编", link: "https://dosasm.github.io/dosrun/" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
@@ -106,9 +107,9 @@ nav.list[1] = [{
   name: "软件下载", icon: "fa-solid fa-cube", item: [
     { text: "Win软件", desc: "联想应用商店", icon: "fa-brands fa-microsoft", link: "https://lestore.lenovo.com/" },
     { text: "果核剥壳", link: "https://www.ghxi.com/" },
-    { text: "微软商店解析", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
+    { text: "微软商店解析",desc: "Generation Project", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
-    { text: "南大镜像", desc: "开源镜像站", link: "https://mirror.nju.edu.cn/" },
+    { text: "南大Mirror", desc: "开源镜像站", link: "https://mirror.nju.edu.cn/" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
     { text: "JB激活", icon: "iconfont icon-apple-mask-icon", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
