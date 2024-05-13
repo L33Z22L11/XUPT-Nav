@@ -20,7 +20,7 @@ nav.list[0] = [{
     { text: "教务系统", desc: "“校务行”查分更快", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "奖学金/退费", desc: "支付宝扫码领取", icon: "fa-solid fa-wallet", js: "dialog.showMsg('西邮财务处')" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showMsg(this.textContent)" },
-    { text: "青年大学习", desc: "需要微信扫码", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
+    { text: "青年大学习", desc: "需要微信打开", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showMsg(this.textContent)" },
     { text: "个人中心", desc: "校园信息门户", icon: "fa-solid fa-street-view", link: "http://i.xiyou.edu.cn/" },
     { text: "内网资源", desc: "WebVPN", icon: "fa-solid fa-building-lock", link: "http://sec.xupt.edu.cn/" },
@@ -36,6 +36,7 @@ nav.list[0] = [{
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "船长的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
+    { text: "Mzdyl的网课", desc: "←挂了先用这个", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.zlibrary-east.se/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
@@ -99,17 +100,18 @@ nav.list[1] = [{
     { text: "在线PS", desc: "稿定设计", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
     { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
-    { text: "网络测速", desc: "USTC反代", link: "http://revproxy.ustc.edu.cn:8000/" },
+    { text: "测网速", desc: "中科大测速", link: "https://test.ustc.edu.cn/" },
+    { text: "USTC反代", desc: "教育网出口测试", link: "http://revproxy.ustc.edu.cn:8000/" },
     { text: "IP检查", desc: "Sukka", link: "https://ip.skk.moe/" },
     { text: "MyIP", desc: "IP工具箱", link: "https://ipcheck.ing/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
     { text: "Win软件", desc: "联想应用商店", icon: "fa-brands fa-microsoft", link: "https://lestore.lenovo.com/" },
-    { text: "果核剥壳", link: "https://www.ghxi.com/" },
+    { text: "应用推荐", desc: "果核剥壳", link: "https://www.ghxi.com/" },
     { text: "微软商店解析",desc: "Generation Project", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
-    { text: "南大Mirror", desc: "开源镜像站", link: "https://mirror.nju.edu.cn/" },
+    { text: "开源镜像", desc: "NJU Mirror", link: "https://mirror.nju.edu.cn/" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
     { text: "JB激活", icon: "iconfont icon-apple-mask-icon", desc: "JetBra.in", link: "https://3.jetbra.in/" },
   ]
@@ -118,7 +120,7 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
     { text: "纸鹿小站", link: "https://zhilu.cyou/" },
-    { text: "纸鹿摸鱼处", desc: "个人博客", link: "https://blog.zhilu.cyou/" },
+    { text: "纸鹿Blog", desc: "纸鹿摸鱼处", link: "https://blog.zhilu.cyou/" },
     { text: "西邮 Linux 兴趣小组", link: "https://xiyoulinux.com/" },
     { text: "邮立方", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
