@@ -36,7 +36,7 @@ nav.list[0] = [{
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
     { text: "船长的网课", desc: "挂了先用右边的", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
-    { text: "Mzdyl的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
+    { text: "名来的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.z-library.se/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
@@ -100,6 +100,7 @@ nav.list[1] = [{
     { text: "菜鸟工具", desc: "运行代码", link: "https://c.runoob.com/" },
     { text: "在线PS", desc: "稿定设计", link: "https://ps.gaoding.com/" },
     { text: "帮小忙", desc: "QQ浏览器", link: "https://tool.browser.qq.com/" },
+    { text: "IT Tools", desc: "开发者小工具", link: "https://it-tools.tech/" },
     { text: "MikuTools", desc: "小工具集合", link: "http://tools.miku.ac/" },
     { text: "测网速", desc: "中科大测速", link: "https://test.ustc.edu.cn/" },
     { text: "USTC反代", desc: "教育网出口测试", link: "http://revproxy.ustc.edu.cn:8000/" },
@@ -110,7 +111,7 @@ nav.list[1] = [{
   name: "软件下载", icon: "fa-solid fa-cube", item: [
     { text: "Win软件", desc: "联想应用商店", icon: "fa-brands fa-microsoft", link: "https://lestore.lenovo.com/" },
     { text: "应用推荐", desc: "果核剥壳", link: "https://www.ghxi.com/" },
-    { text: "微软商店解析",desc: "Generation Project", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
+    { text: "微软商店解析", desc: "Generation Project", icon: "fa-solid fa-bag-shopping", link: "https://store.rg-adguard.net/" },
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
     { text: "开源镜像", desc: "NJU Mirror", link: "https://mirror.nju.edu.cn/" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
