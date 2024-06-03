@@ -1,24 +1,24 @@
 #dialog {
+    display: flex;
     position: fixed;
-    z-index: 1;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 #dialog>.bgWrapper {
     position: fixed;
-    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, .6);
+    z-index: -1;
     backdrop-filter: blur(.2rem);
+    background: rgba(0, 0, 0, .6);
 }
 
 #dialog.hidden {
@@ -26,20 +26,20 @@
 }
 
 #dialog>.card {
+    margin: 1rem;
     width: 80vw;
     max-width: 720px;
     height: auto;
     max-height: 100vh;
-    margin: 1rem;
-    word-break: break-word;
     line-height: 1.5;
+    word-break: break-word;
 }
 
 #dialogContent>canvas,
 #dialogContent>img {
-    max-width: 80%;
     margin: 1rem auto;
-    padding: 1em;
     border-radius: 1em;
     background: #fff;
+    padding: 1em;
+    max-width: 80%;
 }
