@@ -19,6 +19,7 @@ nav.list[0] = [{
   name: "西邮生活", icon: "fa-solid fa-school", item: [
     { text: "教务系统", desc: "“校务行”查分更快", icon: "fa-regular fa-calendar-days", link: "http://www.zfjw.xupt.edu.cn/jwglxt" },
     { text: "奖学金/退费", desc: "支付宝扫码领取", icon: "fa-solid fa-wallet", js: "dialog.showMsg('西邮财务处')" },
+    { text: "缴费大厅", desc: "电费充值", icon: "fa-solid fa-sack-dollar", js: "dialog.showMsg(this.textContent)" },
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "青年大学习", desc: "需要微信打开", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showMsg(this.textContent)" },

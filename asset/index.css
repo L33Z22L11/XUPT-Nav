@@ -77,7 +77,6 @@ pre {
 
 ::selection {
     background: var(--ac3);
-    color: var(--ac1);
 }
 
 html {
@@ -100,6 +99,7 @@ body>* {
     min-width: 1.2em;
     font-size: 1em;
     text-align: center;
+    font-synthesis: none;
 }
 
 .fa-space::after {
