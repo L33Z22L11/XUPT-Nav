@@ -58,7 +58,7 @@ strong {
     color: var(--ac1);
 }
 
-code,
+mark,
 pre {
     border-radius: .5em;
     background: var(--ac3);

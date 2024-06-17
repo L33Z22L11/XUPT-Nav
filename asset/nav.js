@@ -89,7 +89,8 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
-    { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "纸鹿自建镜像", link: "https://arch.cooo.site/" },
+    { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "镜像自arch-guide", link: "https://arch.cooo.site/" },
+    { text: "公众号编辑", icon: "fa-brands fa-markdown", desc: "镜像自doocs/md", link: "https://md.cooo.site/" },
     { text: "画流程图", desc: "Draw.io", link: "https://draw.io/" },
     { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
