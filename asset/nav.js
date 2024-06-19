@@ -36,7 +36,8 @@ nav.list[0] = [{
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
     { text: "西邮试卷", desc: "欢迎commit", icon: "fa-brands fa-github", link: "https://github.com/JiaHuann/XUPT-Exam-Collection" },
-    { text: "船长的网课", desc: "挂了先用右边的", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
+    { text: "试卷打印", desc: "打印店资源", icon: "fa-solid fa-print", js: "dialog.showMsg(this.textContent)" },
+    // { text: "船长的网课", desc: "挂了先用右边的", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
     { text: "名来的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.singlelogin.re/" },
@@ -70,19 +71,19 @@ nav.list[1] = [{
   item: [
     { text: "文心一言", desc: "百度", link: "https://yiyan.baidu.com/" },
     { text: "通义千问", desc: "阿里", link: "https://qianwen.aliyun.com/" },
-    { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/desk" },
+    { text: "Kimi.ai", desc: "月之暗面", link: "https://kimi.moonshot.cn/" },
     { text: "智谱清言", link: "https://chatglm.cn/" },
+    { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
+    { text: "讯飞星火", link: "https://xinghuo.xfyun.cn/desk" },
     { text: "昆仑天工", link: "https://search.tiangong.cn/" },
     { text: "商汤商量", link: "https://chat.sensetime.com/" },
-    { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
-    { text: "Kimi.ai", desc: "月之暗面", link: "https://kimi.moonshot.cn/" },
-    { text: "ChatGPT", link: "https://chatgpt.com/" },
+    { text: "ChatGPT", desc: "OpenAI", link: "https://chatgpt.com/" },
     { text: "ChatGPT", desc: "国内镜像", link: "https://www.ycl.cool/tool/ai/" },
+    { text: "Gemini", desc: "Google", link: "https://gemini.google.com/app" },
+    { text: "Copilot", desc: "Microsoft", link: "https://copilot.microsoft.com/" },
     { text: "Coze", desc: "字节", link: "https://www.coze.com/home" },
     { text: "Poe", desc: "Quora", link: "https://poe.com/" },
-    { text: "Copilot", desc: "Microsoft", link: "https://copilot.microsoft.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
-    { text: "Theb.ai", link: "https://beta.theb.ai/" },
   ]
 }, {
   name: "校友推荐", icon: "fa-solid fa-inbox",
