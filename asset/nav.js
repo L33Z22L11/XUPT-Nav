@@ -47,13 +47,14 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
+    { text: "🔥实验室纳新", desc: "火热纳新 就等你来", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM" },
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     { text: "飞跃手册", desc: "毕业经验分享", link: "https://xuptflying.github.io/xupt-flying.github.io/#/" },
     { text: "校园墙", icon: "fa-brands fa-weixin", js: "dialog.showMsg(this.textContent)" },
-    { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
+    { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohon  gshu", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
 
