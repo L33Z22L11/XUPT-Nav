@@ -39,7 +39,7 @@ nav.list[0] = [{
     { text: "试卷打印", desc: "打印店资源", icon: "fa-solid fa-print", js: "dialog.showMsg(this.textContent)" },
     // { text: "船长的网课", desc: "挂了先用右边的", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
     { text: "名来的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
-    { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-bookmark", link: "https://zh.annas-archive.org/" },
+    { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-atlas", link: "https://zh.annas-archive.org/" },
     { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.singlelogin.re/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
     { text: "学信档案", icon: "fa-solid fa-address-card", link: "https://my.chsi.com.cn/archive/index.action" },
@@ -91,11 +91,12 @@ nav.list[1] = [{
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-pen-to-square"></i> 我要投稿</a>`,
   item: [
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
-    { text: "Arch指南", icon: "iconfont icon-archlinux", desc: "镜像自arch-guide", link: "https://arch.cooo.site/" },
-    { text: "公众号编辑", icon: "fa-brands fa-markdown", desc: "镜像自doocs/md", link: "https://md.cooo.site/" },
+    { text: "公众号编辑", desc: "镜像自doocs/md", icon: "fa-brands fa-markdown", link: "https://md.cooo.site/" },
     { text: "画流程图", desc: "Draw.io", link: "https://draw.io/" },
     { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
+    { text: "电脑入门", desc: "你缺失的那门计算机课", icon: "fa-solid fa-book-bookmark", link: "https://www.criwits.top/missing/" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
+    { text: "芯片榜", desc: "极客湾SoCPK", link: "https://www.socpk.com/" },
     { text: "Yesicon", desc: "前端图标库", link: "https://yesicon.app/" },
     { text: "开发速查", desc: "Quick Reference", icon: "fa-solid fa-swatchbook", link: "https://quickref.cn/" },
     { text: "在线DOS", desc: "MASM汇编", link: "https://dosasm.github.io/dosrun/" },
@@ -120,7 +121,7 @@ nav.list[1] = [{
     { text: "Win镜像", desc: "UUPDump", icon: "fa-brands fa-windows", link: "https://www.uupdump.cn/" },
     { text: "开源镜像", desc: "NJU Mirror", link: "https://mirror.nju.edu.cn/" },
     { text: "Mac软件", desc: "Digit77破解", icon: "fa-brands fa-apple", link: "https://www.digit77.com/" },
-    { text: "JB激活", icon: "iconfont icon-apple-mask-icon", desc: "JetBra.in", link: "https://3.jetbra.in/" },
+    { text: "JB激活", desc: "JetBra.in", icon: "iconfont icon-apple-mask-icon", link: "https://3.jetbra.in/" },
   ]
 }, {
   name: "友链", icon: "fa-solid fa-link",
