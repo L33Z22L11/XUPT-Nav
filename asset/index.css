@@ -102,7 +102,7 @@ body>* {
     font-synthesis: none;
 }
 
-.fa-space::after {
+.icon-space::after {
     content: ' ';
 }
 

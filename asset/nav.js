@@ -54,7 +54,7 @@ nav.list[0] = [{
     { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     { text: "飞跃手册", desc: "毕业经验分享", link: "https://xuptflying.github.io/xupt-flying.github.io/#/" },
     { text: "校园墙", icon: "fa-brands fa-weixin", js: "dialog.showMsg(this.textContent)" },
-    { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohon  gshu", js: "dialog.showMsg(this.textContent)" },
+    { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
 
@@ -140,14 +140,14 @@ nav.list.forEach((list, i) => {
   nav.ele[i].innerHTML = list.map(group => `
     <div class="card">
     <div class="between">
-    <h4><i class="${group.icon} fa-space"></i>${group.name}</h4>
+    <h4><i class="${group.icon} icon-space"></i>${group.name}</h4>
     ${group.desc ? `<p class="dim">${group.desc}</p>` : ``}
     </div>
     <div class="list">
     ${group.item.map(item => `
       <a data-sub="${item.desc || ""}"
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-    >${item.icon ? `<i class="${item.icon} fa-space"></i>` : ``}${item.text}</a>
+    >${item.icon ? `<i class="${item.icon} icon-space"></i>` : ``}${item.text}</a>
     `).join(`\n`)}
     </div>
     </div>`).join(`\n`)
