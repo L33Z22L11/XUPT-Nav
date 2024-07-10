@@ -82,6 +82,7 @@ nav.list[1] = [{
     { text: "ChatGPT", desc: "国内镜像", link: "https://www.ycl.cool/tool/ai/" },
     { text: "Gemini", desc: "Google", link: "https://gemini.google.com/app" },
     { text: "Copilot", desc: "Microsoft", link: "https://copilot.microsoft.com/" },
+    { text: "Copilot", desc: "第三方镜像", link: "https://ai.qinye.cool/" },
     { text: "Coze", desc: "字节", link: "https://www.coze.com/home" },
     { text: "Poe", desc: "Quora", link: "https://poe.com/" },
     { text: "Perplexity", link: "https://www.perplexity.ai/" },
