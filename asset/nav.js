@@ -13,7 +13,7 @@ nav.list[0] = [{
     { text: "中国大学MOOC", icon: "fa-solid fa-book-open", link: "https://icourse163.org/home.htm" },
     { text: "云班课", icon: "fa-solid fa-cloud", link: "https://www.mosoteach.cn/web/" },
     { text: "蓝桥云课", icon: "iconfont icon-lanqiao", link: "https://www.lanqiao.cn/user/?tab=2#:~:text=%E6%88%91%E7%9A%84%E8%AF%BE%E7%A8%8B" },
-    { text: "拼题A", icon: "fa-solid fa-laptop-code", link: "https://pintia.cn/problem-sets/active" },
+    { text: "PTA", icon: "fa-solid fa-laptop-code", link: "https://pintia.cn/problem-sets/active" },
   ]
 }, {
   name: "西邮生活", icon: "fa-solid fa-school", item: [

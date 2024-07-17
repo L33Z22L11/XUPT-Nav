@@ -4,7 +4,6 @@ let timer = {
   ele: document.getElementById("timer").children,
   start: new Date(0), end: new Date(0), now: new Date(),
   list: function ($) {
-    $("考试", "24-06-30 00:00", "24-07-13 00:00")
     $("暑假", "24-07-13 00:00", "24-08-26 00:00")
     $("", "24-08-26 00:00", "24-12-29 00:00")
     $("考试", "24-12-29 00:00", "25-01-12 00:00")
