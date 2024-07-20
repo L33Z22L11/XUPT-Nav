@@ -100,10 +100,10 @@ body>* {
     font-size: 1em;
     text-align: center;
     font-synthesis: none;
-}
 
-.icon-space::after {
-    content: ' ';
+    &+span::before {
+        content: ' ';
+    }
 }
 
 [data-sub] {

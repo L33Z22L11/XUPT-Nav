@@ -47,7 +47,8 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
-    { text: "🔥实验室纳新", desc: "火热纳新 就等你来", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM" },
+    { text: "🔥实验室纳新", desc: "火热纳新 就等你来", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=BB08J2" },
+    { text: "各兴趣群", desc: "游戏娱乐 小众爱好", icon: "fa-solid fa-gamepad", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=ov58e9" },
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
     { text: "逸夫楼地图", desc: "手机访问才正常", icon: "fa-solid fa-map-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
@@ -141,14 +142,14 @@ nav.list.forEach((list, i) => {
   nav.ele[i].innerHTML = list.map(group => `
     <div class="card">
     <div class="between">
-    <h4><i class="${group.icon} icon-space"></i>${group.name}</h4>
+    <h4><i class="${group.icon}"></i><span>${group.name}</span></h4>
     ${group.desc ? `<p class="dim">${group.desc}</p>` : ``}
     </div>
     <div class="list">
     ${group.item.map(item => `
       <a data-sub="${item.desc || ""}"
       ${item.js ? `onclick="${item.js}"` : `href="${item.link}"`}
-    >${item.icon ? `<i class="${item.icon} icon-space"></i>` : ``}${item.text}</a>
+    >${item.icon ? `<i class="${item.icon}"></i>` : ``}<span>${item.text}</span></a>
     `).join(`\n`)}
     </div>
     </div>`).join(`\n`)
