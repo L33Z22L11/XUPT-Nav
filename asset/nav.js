@@ -47,6 +47,7 @@ nav.list[0] = [{
   ]
 }, {
   name: "西邮周边", icon: "fa-solid fa-circle-nodes", item: [
+    { text: "📘西邮Wiki", desc: "校园生活指南", link: "https://wiki.cooo.site/" },
     { text: "🔥实验室纳新", desc: "火热纳新 就等你来", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=BB08J2" },
     { text: "各兴趣群", desc: "游戏娱乐 小众爱好", icon: "fa-solid fa-gamepad", link: "https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=ov58e9" },
     // { text: "校园网", link: "https://github.com/drcoms/drcom-generic/wiki/可用学校列表" },
@@ -94,14 +95,11 @@ nav.list[1] = [{
   item: [
     { text: "打字背单词", desc: "Qwerty Learner", link: "https://qwerty.kaiyi.cool/" },
     { text: "公众号编辑", desc: "镜像自doocs/md", icon: "fa-brands fa-markdown", link: "https://md.cooo.site/" },
-    { text: "画流程图", desc: "Draw.io", link: "https://draw.io/" },
-    { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
     { text: "电脑入门", desc: "你缺失的那门计算机课", icon: "fa-solid fa-book-bookmark", link: "https://www.criwits.top/missing/" },
     { text: "电脑帮助", desc: "南大IT侠手册", link: "https://www.yuque.com/itxia" },
     { text: "芯片榜", desc: "极客湾SoCPK", link: "https://www.socpk.com/" },
     { text: "Yesicon", desc: "前端图标库", link: "https://yesicon.app/" },
     { text: "开发速查", desc: "Quick Reference", icon: "fa-solid fa-swatchbook", link: "https://quickref.cn/" },
-    { text: "在线DOS", desc: "MASM汇编", link: "https://dosasm.github.io/dosrun/" },
   ]
 }, {
   name: "在线工具", icon: "fa-solid fa-toolbox", item: [
@@ -114,6 +112,12 @@ nav.list[1] = [{
     { text: "USTC反代", desc: "教育网出口测试", link: "http://revproxy.ustc.edu.cn:8000/" },
     { text: "IP检查", desc: "Sukka", link: "https://ip.skk.moe/" },
     { text: "MyIP", desc: "IP工具箱", link: "https://ipcheck.ing/" },
+    { text: "画流程图", desc: "Draw.io", link: "https://draw.io/" },
+    { text: "电路仿真", desc: "CircuitJS1", link: "http://www.falstad.com/circuit/circuitjs.html" },
+    { text: "在线DOS", desc: "MASM汇编", link: "https://dosasm.github.io/dosrun/" },
+    { text: "HDL仿真", desc: "EDA playground", link: "https://edaplayground.com/" },
+    { text: "RISC-V仿真", desc: "emulsiV", link: "https://eseo-tech.github.io/emulsiV/" },
+    { text: "汇编转换", desc: "Compiler Explorer", link: "https://godbolt.org/" },
   ]
 }, {
   name: "软件下载", icon: "fa-solid fa-cube", item: [
