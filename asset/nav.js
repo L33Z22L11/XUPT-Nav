@@ -62,7 +62,7 @@ nav.list[0] = [{
 
 nav.list[1] = [{
   name: "第三方导航", icon: "fa-solid fa-signs-post", item: [
-    { text: "夸克搜索", desc: "免下载", icon: "fa-solid fa-magnifying-glass", js: "dialog.showMsg(this.textContent)" },
+    // { text: "夸克搜索", desc: "免下载", icon: "fa-solid fa-magnifying-glass", js: "dialog.showMsg(this.textContent)" },
     { text: "半岛导航", desc: "西邮 学习", link: "https://www.bandao.ltd/guidance/" },
     { text: "掘金酱", desc: "开发者", link: "https://e.juejin.cn/" },
     { text: "别摸鱼", desc: "AI 新媒体", link: "https://biemoyu.com/" },
@@ -133,10 +133,10 @@ nav.list[1] = [{
   name: "友链", icon: "fa-solid fa-link",
   desc: `<a onclick="dialog.showMsg('联系方式')"><i class="fa-solid fa-user-plus"></i> 添加友链</a>`,
   item: [
-    { text: "纸鹿小站", link: "https://zhilu.cyou/" },
-    { text: "纸鹿Blog", desc: "纸鹿摸鱼处", link: "https://blog.zhilu.cyou/" },
+    { text: "纸鹿摸鱼处", desc: "个人博客", link: "https://blog.zhilu.cyou/" },
     { text: "西邮 Linux 兴趣小组", link: "https://xiyoulinux.com/" },
-    { text: "邮立方", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
+    { text: "西邮Wiki", link: "https://wiki.cooo.site/" },
+    { text: "邮立方", link: "https://cop.cooo.site" },
     // { text: "半岛的小屋", link: "https://www.bandao.ltd/" },
     // { text: "plus studio", link: "https://studyinglover.com/" },
   ]
