@@ -23,6 +23,7 @@ nav.list[0] = [{
     { text: "我在校园", desc: "网页版登录", icon: "fa-solid fa-location-dot", js: "dialog.showMsg(this.textContent)" },
     { text: "青年大学习", desc: "需要微信打开", icon: "fa-solid fa-medal", js: "dialog.showMsg(this.textContent)" },
     { text: "第二课堂", desc: "学分申报", icon: "fa-solid fa-book-bookmark", js: "dialog.showMsg(this.textContent)" },
+    { text: "取快递", desc: "淘宝身份码", icon: "iconfont icon-taobao", js: "dialog.showMsg(this.textContent)" },
     { text: "个人中心", desc: "校园信息门户", icon: "fa-solid fa-street-view", link: "http://i.xiyou.edu.cn/" },
     { text: "内网资源", desc: "WebVPN", icon: "fa-solid fa-building-lock", link: "http://sec.xupt.edu.cn/" },
     { text: "电子教材", desc: "西邮图书馆", icon: "fa-solid fa-book", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
