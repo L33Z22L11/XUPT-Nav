@@ -56,7 +56,7 @@ nav.list[0] = [{
     { text: "东区教室导航", desc: "微信“隔壁小O”", icon: "fa-solid fa-route", link: "https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA" },
     { text: "邮立方", desc: "校园MC交流", icon: "iconfont icon-minecraft", link: "https://cop.cooo.site" },
     { text: "飞跃手册", desc: "毕业经验分享", link: "https://xuptflying.github.io/xupt-flying.github.io/#/" },
-    { text: "校园墙", icon: "fa-brands fa-weixin", js: "dialog.showMsg(this.textContent)" },
+    { text: "校园墙", icon: "fa-brands fa-weixin", link: "https://wiki.cooo.site/life/forum#校园墙" },
     { text: "西柚oi", desc: "校园交流群", icon: "iconfont icon-xiaohongshu", js: "dialog.showMsg(this.textContent)" },
   ]
 },]
