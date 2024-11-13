@@ -2,7 +2,7 @@
 获取某个 GitHub Repository 的上一次 commit 时间，使用 WTFPL 协议开源。
 使用方式参考：
 <script src="/path-to-commit.js"
-  onload="getLastCommit(document.getElementById('lastCommit'), 'L33Z22L11/XUPT-Nav')"></script>
+  onload="getLastCommit(document.getElementById('lastCommit'), 'xupt-wiki/xupt-nav')"></script>
  */
 
 function getLastCommit(ele, repo) {
