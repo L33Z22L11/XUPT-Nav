@@ -26,7 +26,9 @@ nav.list[0] = [{
     { text: "取快递", desc: "淘宝身份码", icon: "iconfont icon-taobao", js: "dialog.showMsg(this.textContent)" },
     { text: "一网通办", desc: "新版个人中心", icon: "fa-solid fa-street-view", link: "https://i.xupt.edu.cn/" },
     { text: "<del>个人中心</del>", desc: "校园信息门户", icon: "fa-solid fa-street-view", link: "https://i.xiyou.edu.cn/" },
-    { text: "内网资源", desc: "WebVPN", icon: "fa-solid fa-building-lock", link: "https://sec.xupt.edu.cn/" },
+    { text: "知网", desc: "校内认证", icon: "iconfont icon-zhiwang", link: "https://fsso.cnki.net/Shibboleth.sso/Login?entityID=https://idp.xupt.edu.cn/idp/shibboleth&target=https://fsso.cnki.net/secure/default.aspx" },
+    { text: "内网资源", desc: "WebVPN聚合平台", icon: "fa-solid fa-building-lock", link: "https://sec.xupt.edu.cn/" },
+    { text: "CARSI", desc: "跨校资源认证", icon: "iconfont icon-carsi", link: "https://idp.xupt.edu.cn/idp/" },
     { text: "电子教材", desc: "西邮图书馆", icon: "fa-solid fa-book", link: "https://xyoujc.mh.chaoxing.com/engine2/general-rest/4072742/proxy-more-url?wfwfid=22861" },
     { text: "教育邮箱", desc: "页面右上角能申请", icon: "fa-solid fa-envelope", link: "http://webmail.xupt.edu.cn/" },
     { text: "企业微信", desc: "关注/加入指南", icon: "fa-brands fa-weixin", link: "https://xxzx.xupt.edu.cn/info/1005/2693.htm" },
@@ -35,6 +37,7 @@ nav.list[0] = [{
     { text: "办事大厅", icon: "fa-solid fa-building-columns", link: "http://one.xupt.edu.cn/EIP" },
     { text: "信息直通车", icon: "fa-solid fa-train-subway", link: "http://ztc.sec.xupt.edu.cn/" },
     { text: "正版软件", icon: "fa-solid fa-cubes", link: "http://ms.xupt.edu.cn/" },
+    { text: "AI大模型", icon: "fa-solid fa-robot", link: "http://ms.xupt.edu.cn/index/aicom/chat" },
   ]
 }, {
   name: "考试学习", icon: "fa-solid fa-pen-ruler", item: [
