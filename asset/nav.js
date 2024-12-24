@@ -46,7 +46,7 @@ nav.list[0] = [{
     // { text: "船长的网课", desc: "挂了先用右边的", icon: "fa-solid fa-hard-drive", link: "https://pan.sehcz.ltd/%E6%88%91%E7%9A%84%E7%BD%91%E7%9B%98/%E6%9C%9F%E6%9C%AB%E4%BF%9D%E5%91%BD" },
     { text: "名来的网课", desc: "期末保命复习视频", icon: "fa-solid fa-hard-drive", link: "https://drive.mzdyl.xyz/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99" },
     { text: "安娜的档案", desc: "世界最大互联网图书馆", icon: "fa-solid fa-book-atlas", link: "https://zh.annas-archive.org/" },
-    { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.singlelogin.re/" },
+    { text: "zlibrary", desc: "免费电子书下载", icon: "fa-solid fa-book-atlas", link: "https://zh.z-library.sk/" },
     { text: "力扣", icon: "fa-solid fa-code", link: "https://leetcode.cn/" },
     { text: "学信档案", icon: "fa-solid fa-address-card", link: "https://my.chsi.com.cn/archive/index.action" },
     { text: "四六级报名", icon: "fa-solid fa-scroll", link: "https://cet-bm.neea.edu.cn/" },
