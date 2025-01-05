@@ -14,7 +14,7 @@ dialog.msgs = {
     缴费大厅: { icon: 'fa-solid fa-sack-dollar', content: '支付宝扫码，支持充值公寓电费，电表只能被一个用户绑定。<br>(<strong><a href="https://cwc.xupt.edu.cn/info/1013/1371.htm">公寓电费充值指南</a></strong>) ', code: 'https://wx.weiweixiao.net/index.php/Wap/Index/columns.html?token=eoQ1mDMc7BGAAAAWPgst-A&id=VGGmLrY67BGAAAAWPwAVGQ' },
     取快递: { icon: 'iconfont icon-taobao', content: '淘宝扫码或直接访问', code: 'https://pages-fast.m.taobao.com/wow/z/uniapp/1011717/last-mile-fe/end-collect-platform/school' },
     试卷打印: { icon: 'fa-solid fa-print', content: '微信小程序搜索“萌蚤云印”，选择打印店后点击下方“资料”，可以查看此店热门资源。<br>祝大家期末不挂科。' },
-    西柚oi: { icon: 'iconfont icon-xiaohongshu', content: '小红书APP扫码加入，二维码2025年1月9日前有效', code: 'http://xhslink.com/a/azQ3rt8cqou1' },
+    西柚oi: { icon: 'iconfont icon-xiaohongshu', content: '小红书APP扫码加入，二维码2025年1月9日前有效', code: 'https://xhslink.com/a/YqgaNN48GC22' },
 }
 
 dialog.showMsg = (name) => {

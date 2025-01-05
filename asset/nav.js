@@ -81,6 +81,7 @@ nav.list[1] = [{
     { text: "文心一言", desc: "百度", link: "https://yiyan.baidu.com/" },
     { text: "通义千问", desc: "阿里", link: "https://tongyi.aliyun.com/qianwen/" },
     { text: "豆包", desc: "字节", link: "https://www.doubao.com/chat/" },
+    { text: "DeepSeek", link: "https://chat.deepseek.com/" },
     { text: "Kimi.ai", desc: "月之暗面", link: "https://kimi.moonshot.cn/" },
     { text: "智谱清言", link: "https://chatglm.cn/" },
     { text: "腾讯混元", link: "https://hunyuan.tencent.com/" },
